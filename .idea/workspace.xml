@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f69991ab-5fd8-474a-ab6b-22a3ca431fe4" name="Changes" comment="app etc">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8ae749ac-52cf-4037-9c22-fb87e2fcfda5" name="Changes" comment="app etc">
+      <change beforePath="$PROJECT_DIR$/beeware-venv/Scripts/atrportable/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/beeware-venv/Scripts/atrportable/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
