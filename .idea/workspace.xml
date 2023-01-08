@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f69991ab-5fd8-474a-ab6b-22a3ca431fe4" name="Changes" comment="app etc">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +9,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -69,8 +67,7 @@
       <workItem from="1671208862084" duration="146000" />
       <workItem from="1671209570295" duration="165000" />
       <workItem from="1671210524217" duration="1167000" />
-      <workItem from="1673019835002" duration="1482000" />
-      <workItem from="1673192773150" duration="819000" />
+      <workItem from="1673019835002" duration="1161000" />
     </task>
     <task id="LOCAL-00001" summary="app etc">
       <created>1671208767194</created>
@@ -79,14 +76,7 @@
       <option name="project" value="LOCAL" />
       <updated>1671208767194</updated>
     </task>
-    <task id="LOCAL-00002" summary="app etc">
-      <created>1673021986466</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1673021986466</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
