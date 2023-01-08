@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae749ac-52cf-4037-9c22-fb87e2fcfda5" name="Changes" comment="app etc">
-      <change beforePath="$PROJECT_DIR$/beeware-venv/Scripts/atrportable/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/beeware-venv/Scripts/atrportable/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671208767194</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="app etc">
+      <created>1673194368890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673194368890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

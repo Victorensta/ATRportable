@@ -1,0 +1,832 @@
+Date/Time:       2023-01-06 16:09:05 
+Command line:    C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\briefcase run android
+
+OS Release:      Windows 10
+OS Version:      10.0.19044
+Architecture:    AMD64
+Platform:        Windows-10-10.0.19044-SP0
+
+Python exe:      c:\users\etudiant\java\atrportable\beeware-venv\scripts\python.exe
+Python version:  3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.11
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+    ALLUSERSPROFILE=C:\ProgramData
+    APPDATA=C:\Users\etudiant\AppData\Roaming
+    COMMONPROGRAMFILES=C:\Program Files\Common Files
+    COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+    COMMONPROGRAMW6432=C:\Program Files\Common Files
+    COMPUTERNAME=LATITUDE3510-03
+    COMSPEC=C:\WINDOWS\system32\cmd.exe
+    DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+    HOMEDRIVE=C:
+    HOMEPATH=\Users\etudiant
+    INTELLIJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;
+    INTELLIJ IDEA EDUCATIONAL EDITION=C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 222.4167.41\bin;
+    LOCALAPPDATA=C:\Users\etudiant\AppData\Local
+    LOGONSERVER=\\LATITUDE3510-03
+    NUMBER_OF_PROCESSORS=8
+    ONEDRIVE=C:\Users\etudiant\OneDrive
+    OS=Windows_NT
+    PATH=C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\;C:\Users\etudiant\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 222.4167.41\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;;C:\Users\etudiant\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\etudiant\AppData\Local\GitHubDesktop\bin
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    PROCESSOR_ARCHITECTURE=AMD64
+    PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=8e0c
+    PROGRAMDATA=C:\ProgramData
+    PROGRAMFILES=C:\Program Files
+    PROGRAMFILES(X86)=C:\Program Files (x86)
+    PROGRAMW6432=C:\Program Files
+    PROMPT=(beeware-venv) $P$G
+    PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    PUBLIC=C:\Users\Public
+    SESSIONNAME=Console
+    SYSTEMDRIVE=C:
+    SYSTEMROOT=C:\WINDOWS
+    TEMP=C:\Users\etudiant\AppData\Local\Temp
+    TMP=C:\Users\etudiant\AppData\Local\Temp
+    UATDATA=C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+    USERDOMAIN=LATITUDE3510-03
+    USERDOMAIN_ROAMINGPROFILE=LATITUDE3510-03
+    USERNAME=etudiant
+    USERPROFILE=C:\Users\etudiant
+    VIRTUAL_ENV=C:\Users\etudiant\Java\ATRportable\beeware-venv
+    WINDIR=C:\WINDOWS
+    ZES_ENABLE_SYSMAN=1
+    _OLD_VIRTUAL_PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\;C:\Users\etudiant\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 222.4167.41\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;;C:\Users\etudiant\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\etudiant\AppData\Local\GitHubDesktop\bin
+    _OLD_VIRTUAL_PROMPT=$P$G
+
+Briefcase Log:
+[16:06:01] >>> Android emulator is already installed.                                                                                                             android_sdk.py:409
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' devices -l                                   subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     List of devices attached                                                                                                                        subprocess.py:544
+           >>>     KWG5T16B01040111       device product:EVA-AL10 model:EVA_AL10 device:HWEVA transport_id:11                                                      subprocess.py:544
+           >>>                                                                                                                                                     subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' -s KWG5T16B01040111 emu avd name             subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Return code: 1                                                                                                                                      subprocess.py:553
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\emulator\emulator.exe' -list-avds                                    subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     Pixel_2_API_TiramisuPrivacySandbox                                                                                                              subprocess.py:544
+           >>>     Pixel_3a_API_33_x86_64                                                                                                                          subprocess.py:544
+           >>>     Pixel_XL_API_33                                                                                                                                 subprocess.py:544
+           >>>     Pixel_XL_API_33_2                                                                                                                               subprocess.py:544
+           >>>     beePhone                                                                                                                                        subprocess.py:544
+           >>>     beePhone2                                                                                                                                       subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+                                                                                                                                                                  android_sdk.py:764
+           Select device:                                                                                                                                         android_sdk.py:765
+                                                                                                                                                                  android_sdk.py:766
+             1) EVA AL10 (KWG5T16B01040111)                                                                                                                           console.py:562
+             2) @Pixel_2_API_TiramisuPrivacySandbox (emulator)                                                                                                        console.py:562
+             3) @Pixel_3a_API_33_x86_64 (emulator)                                                                                                                    console.py:562
+             4) @Pixel_XL_API_33 (emulator)                                                                                                                           console.py:562
+             5) @Pixel_XL_API_33_2 (emulator)                                                                                                                         console.py:562
+             6) @beePhone (emulator)                                                                                                                                  console.py:562
+             7) @beePhone2 (emulator)                                                                                                                                 console.py:562
+             8) Create a new Android emulator                                                                                                                         console.py:562
+                                                                                                                                                                      console.py:564
+[16:06:06] >                                                                                                                                                          console.py:567
+           >>> User input: 1                                                                                                                                          console.py:567
+                                                                                                                                                                  android_sdk.py:819
+           In future, you can specify this device by running:                                                                                                     android_sdk.py:819
+                                                                                                                                                                  android_sdk.py:819
+               $ briefcase run android -d KWG5T16B01040111                                                                                                        android_sdk.py:819
+                                                                                                                                                                       gradle.py:212
+           [atrportable] Starting app on EVA AL10 (KWG5T16B01040111) (device ID KWG5T16B01040111)                                                                      gradle.py:212
+                                                                                                                                                                       gradle.py:224
+           [atrportable] Installing app...                                                                                                                             gradle.py:224
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' -s KWG5T16B01040111 shell am force-stop      subprocess.py:518
+           com.example.atrportable                                                                                                                                                  
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+           Stopping old versions of the app... done                                                                                                                    gradle.py:226
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' -s KWG5T16B01040111 install -r               subprocess.py:518
+           'C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable\android\gradle\ATRportable\app\build\outputs\apk\debug\app-debug.apk'                               
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+[16:06:30] >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     Performing Streamed Install                                                                                                                     subprocess.py:544
+           >>>     Success                                                                                                                                         subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+           Installing new app version... done                                                                                                                          gradle.py:230
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' -s KWG5T16B01040111 shell am start           subprocess.py:518
+           com.example.atrportable/org.beeware.android.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER                                               
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+[16:06:31] >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER]                                                        subprocess.py:544
+           cmp=com.example.atrportable/org.beeware.android.MainActivity }                                                                                                           
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' -s KWG5T16B01040111 shell pidof -s           subprocess.py:518
+           com.example.atrportable                                                                                                                                                  
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     8278                                                                                                                                            subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+           Launching app... done                                                                                                                                       gradle.py:239
+                                                                                                                                                                       gradle.py:241
+           [atrportable] Following device log output (type CTRL-C to stop log)...                                                                                      gradle.py:241
+           ===========================================================================                                                                                 gradle.py:245
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' -s KWG5T16B01040111 logcat --pid 8278        subprocess.py:518
+           EGL_emulation:S                                                                                                                                                          
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Environment Overrides:                                                                                                                              subprocess.py:535
+           >>>     ANDROID_SDK_ROOT=C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk                                                      subprocess.py:537
+           >>>     JAVA_HOME=C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\java                                                                    subprocess.py:537
+           --------- beginning of main                                                                                                                             subprocess.py:495
+           01-06 16:07:30.572  8278  8278 I         : power log dlsym ok                                                                                           subprocess.py:495
+           01-06 16:07:30.575  8278  8278 I zygote64: Late-enabling -Xcheck:jni                                                                                    subprocess.py:495
+           01-06 16:07:30.598  8278  8278 I zygote64: Reinit property: dalvik.vm.checkjni= false                                                                   subprocess.py:495
+           --------- beginning of system                                                                                                                           subprocess.py:495
+           01-06 16:07:30.624  8278  8278 D ActivityThread: ActivityThread,attachApplication                                                                       subprocess.py:495
+           01-06 16:07:30.682  8278  8299 I HwApiCacheMangerEx: apicache mCurPackageName=com.example.atrportable uptimes=113195619                                 subprocess.py:495
+           01-06 16:07:30.682  8278  8278 D HwFLClassLoader: get used feature list :/feature/used-list failed!                                                     subprocess.py:495
+           01-06 16:07:30.682  8278  8278 D HwFLClassLoader: USE_FEATURE_LIST had not init!                                                                        subprocess.py:495
+           01-06 16:07:30.684  8278  8299 I HwApiCacheMangerEx: apicache oUid null                                                                                 subprocess.py:495
+           01-06 16:07:30.684  8278  8299 I HwApiCacheMangerEx: apicache volumes null                                                                              subprocess.py:495
+           01-06 16:07:30.686  8278  8299 I HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.example.atrportable#10041#256              subprocess.py:495
+           01-06 16:07:30.686  8278  8299 I HwApiCacheMangerEx: apicache oUid 10041                                                                                subprocess.py:495
+           01-06 16:07:30.686  8278  8299 I HwApiCacheMangerEx: apicache volumes null                                                                              subprocess.py:495
+           01-06 16:07:30.687  8278  8299 I HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.example.atrportable#10041#0                subprocess.py:495
+           01-06 16:07:30.687  8278  8299 I HwApiCacheMangerEx: apicache async read begin packageName=com.example.atrportable userid=0                             subprocess.py:495
+           01-06 16:07:30.687  8278  8299 I HwApiCacheMangerEx: apicache pi null                                                                                   subprocess.py:495
+           01-06 16:07:30.689  8278  8299 I chatty  : uid=10041(u0_a41) queued-work-loo identical 1 line                                                           subprocess.py:495
+           01-06 16:07:30.690  8278  8299 I HwApiCacheMangerEx: apicache pi null                                                                                   subprocess.py:495
+           01-06 16:07:30.692  8278  8299 I HwApiCacheMangerEx: apicache oUid null                                                                                 subprocess.py:495
+           01-06 16:07:30.692  8278  8299 I HwApiCacheMangerEx: apicache async read finished packageName=com.example.atrportable userid=0 totalus=5025             subprocess.py:495
+           01-06 16:07:30.700  8278  8278 I HwApiCacheMangerEx: apicache pi null                                                                                   subprocess.py:495
+           01-06 16:07:30.704  8278  8299 E MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!                                                          subprocess.py:495
+           01-06 16:07:30.721  8278  8278 I HwCust  : Constructor found for class android.app.HwCustActivityImpl                                                   subprocess.py:495
+           01-06 16:07:30.721  8278  8278 D HwCust  : Create obj success use class android.app.HwCustActivityImpl                                                  subprocess.py:495
+           01-06 16:07:30.725  8278  8278 V HwPolicyFactory: : success to get AllImpl object and return....                                                        subprocess.py:495
+           01-06 16:07:30.728  8278  8278 I HwCust  : Constructor found for class android.app.HwCustHwWallpaperManagerImpl                                         subprocess.py:495
+           01-06 16:07:30.728  8278  8278 D HwCust  : Create obj success use class android.app.HwCustHwWallpaperManagerImpl                                        subprocess.py:495
+           01-06 16:07:30.733  8278  8278 V HwWidgetFactory: : successes to get AllImpl object and return....                                                      subprocess.py:495
+           01-06 16:07:30.735  8278  8278 V ActivityThread: ActivityThread,callActivityOnCreate                                                                    subprocess.py:495
+           01-06 16:07:30.735  8278  8278 D MainActivity: onCreate() start                                                                                         subprocess.py:495
+           01-06 16:07:30.751  8278  8278 D MainActivity: onCreate(): captured stdout/stderr                                                                       subprocess.py:495
+           01-06 16:07:30.756  8278  8310 D stdio   : Starting to capture stdout/stderr to Android log.                                                            subprocess.py:495
+           01-06 16:07:30.756  8278  8310 D stdio   : stdout now successfully routes into the stdio logger.                                                        subprocess.py:495
+           01-06 16:07:30.778  8278  8278 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x =    subprocess.py:495
+           0.09, mControlPoint2y = 0.97                                                                                                                                             
+           01-06 16:07:30.779  8278  8278 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, subprocess.py:495
+           mControlPoint2y = 1.0                                                                                                                                                    
+           01-06 16:07:30.779  8278  8278 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x =    subprocess.py:495
+           0.09, mControlPoint2y = 0.97                                                                                                                                             
+           01-06 16:07:30.779  8278  8278 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, subprocess.py:495
+           mControlPoint2y = 1.0                                                                                                                                                    
+           01-06 16:07:30.783  8278  8278 I zygote64: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>:               subprocess.py:495
+           java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;                                                                    
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.core.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) subprocess.py:495
+           (ViewCompat.java:2559)                                                                                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.widget.ActionBarContainer.<init>(android.content.Context,                       subprocess.py:495
+           android.util.AttributeSet) (ActionBarContainer.java:62)                                                                                                                  
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)   subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)   subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String,            subprocess.py:495
+           android.util.AttributeSet) (LayoutInflater.java:658)                                                                                                                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:801)                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet) (LayoutInflater.java:741)                                                                                            
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View,              subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:874)                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View,      subprocess.py:495
+           android.util.AttributeSet, boolean) (LayoutInflater.java:835)                                                                                                            
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser,                     subprocess.py:495
+           android.view.ViewGroup, boolean) (LayoutInflater.java:515)                                                                                                               
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean)             subprocess.py:495
+           (LayoutInflater.java:423)                                                                                                                                                
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup)                      subprocess.py:495
+           (LayoutInflater.java:374)                                                                                                                                                
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor()                    subprocess.py:495
+           (AppCompatDelegateImpl.java:607)                                                                                                                                         
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)     subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(android.view.View)                     subprocess.py:495
+           (AppCompatDelegateImpl.java:457)                                                                                                                                         
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatActivity.setContentView(android.view.View)                         subprocess.py:495
+           (AppCompatActivity.java:145)                                                                                                                                             
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void org.beeware.android.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:53)                subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle)          subprocess.py:495
+           (Instrumentation.java:1218)                                                                                                                                              
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.app.Activity                                                                                    subprocess.py:495
+           android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord,   subprocess.py:495
+           android.content.Intent, java.lang.String) (ActivityThread.java:3411)                                                                                                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.-wrap12(android.app.ActivityThread,                                     subprocess.py:495
+           android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)                                                      
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)          subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)                          subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.os.Looper.loop() (Looper.java:166)                                                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)                     subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2) subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)                  subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64: Caused by: java.lang.ClassNotFoundException: Didn't find class                                               subprocess.py:495
+           "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file                                                                                           
+           "/data/app/com.example.atrportable-tDJY_yk7vr6jerUu77cHrA==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.atrportable-tDJY_yk7vr6jerUu77cH                  
+           rA==/lib/arm64, /data/app/com.example.atrportable-tDJY_yk7vr6jerUu77cHrA==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64, /product/lib64,                        
+           /preas/lib64]]                                                                                                                                                           
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String)                            subprocess.py:495
+           (BaseDexClassLoader.java:93)                                                                                                                                             
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)       subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)                subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.core.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) subprocess.py:495
+           (ViewCompat.java:2559)                                                                                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.widget.ActionBarContainer.<init>(android.content.Context,                       subprocess.py:495
+           android.util.AttributeSet) (ActionBarContainer.java:62)                                                                                                                  
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)   subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)   subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String,            subprocess.py:495
+           android.util.AttributeSet) (LayoutInflater.java:658)                                                                                                                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:801)                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet) (LayoutInflater.java:741)                                                                                            
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View,              subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:874)                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View,      subprocess.py:495
+           android.util.AttributeSet, boolean) (LayoutInflater.java:835)                                                                                                            
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser,                     subprocess.py:495
+           android.view.ViewGroup, boolean) (LayoutInflater.java:515)                                                                                                               
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean)             subprocess.py:495
+           (LayoutInflater.java:423)                                                                                                                                                
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup)                      subprocess.py:495
+           (LayoutInflater.java:374)                                                                                                                                                
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor()                    subprocess.py:495
+           (AppCompatDelegateImpl.java:607)                                                                                                                                         
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)     subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(android.view.View)                     subprocess.py:495
+           (AppCompatDelegateImpl.java:457)                                                                                                                                         
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatActivity.setContentView(android.view.View)                         subprocess.py:495
+           (AppCompatActivity.java:145)                                                                                                                                             
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void org.beeware.android.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:53)                subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle)          subprocess.py:495
+           (Instrumentation.java:1218)                                                                                                                                              
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.app.Activity                                                                                    subprocess.py:495
+           android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord,   subprocess.py:495
+           android.content.Intent, java.lang.String) (ActivityThread.java:3411)                                                                                                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.-wrap12(android.app.ActivityThread,                                     subprocess.py:495
+           android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)                                                      
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)          subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)                          subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.os.Looper.loop() (Looper.java:166)                                                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)                     subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2) subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)                  subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:                                                                                                              subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>:               subprocess.py:495
+           java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;                                                                    
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.core.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) subprocess.py:495
+           (ViewCompat.java:2559)                                                                                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.widget.ActionBarContainer.<init>(android.content.Context,                       subprocess.py:495
+           android.util.AttributeSet) (ActionBarContainer.java:62)                                                                                                                  
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)   subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)   subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String,            subprocess.py:495
+           android.util.AttributeSet) (LayoutInflater.java:658)                                                                                                                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:801)                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet) (LayoutInflater.java:741)                                                                                            
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View,              subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:874)                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View,      subprocess.py:495
+           android.util.AttributeSet, boolean) (LayoutInflater.java:835)                                                                                                            
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser,                     subprocess.py:495
+           android.view.ViewGroup, boolean) (LayoutInflater.java:515)                                                                                                               
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean)             subprocess.py:495
+           (LayoutInflater.java:423)                                                                                                                                                
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup)                      subprocess.py:495
+           (LayoutInflater.java:374)                                                                                                                                                
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor()                    subprocess.py:495
+           (AppCompatDelegateImpl.java:607)                                                                                                                                         
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)     subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(android.view.View)                     subprocess.py:495
+           (AppCompatDelegateImpl.java:457)                                                                                                                                         
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatActivity.setContentView(android.view.View)                         subprocess.py:495
+           (AppCompatActivity.java:145)                                                                                                                                             
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void org.beeware.android.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:53)                subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle)          subprocess.py:495
+           (Instrumentation.java:1218)                                                                                                                                              
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.app.Activity                                                                                    subprocess.py:495
+           android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord,   subprocess.py:495
+           android.content.Intent, java.lang.String) (ActivityThread.java:3411)                                                                                                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.-wrap12(android.app.ActivityThread,                                     subprocess.py:495
+           android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)                                                      
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)          subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)                          subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.os.Looper.loop() (Looper.java:166)                                                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)                     subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2) subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)                  subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64: Caused by: java.lang.ClassNotFoundException: Didn't find class                                               subprocess.py:495
+           "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file                                                                                           
+           "/data/app/com.example.atrportable-tDJY_yk7vr6jerUu77cHrA==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.atrportable-tDJY_yk7vr6jerUu77cH                  
+           rA==/lib/arm64, /data/app/com.example.atrportable-tDJY_yk7vr6jerUu77cHrA==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64, /product/lib64,                        
+           /preas/lib64]]                                                                                                                                                           
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String)                            subprocess.py:495
+           (BaseDexClassLoader.java:93)                                                                                                                                             
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)       subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)                subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.core.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) subprocess.py:495
+           (ViewCompat.java:2559)                                                                                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.widget.ActionBarContainer.<init>(android.content.Context,                       subprocess.py:495
+           android.util.AttributeSet) (ActionBarContainer.java:62)                                                                                                                  
+[16:06:32] 01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)   subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)   subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String,            subprocess.py:495
+           android.util.AttributeSet) (LayoutInflater.java:658)                                                                                                                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:801)                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet) (LayoutInflater.java:741)                                                                                            
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View,              subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:874)                                                                                   
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View,      subprocess.py:495
+           android.util.AttributeSet, boolean) (LayoutInflater.java:835)                                                                                                            
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser,                     subprocess.py:495
+           android.view.ViewGroup, boolean) (LayoutInflater.java:515)                                                                                                               
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean)             subprocess.py:495
+           (LayoutInflater.java:423)                                                                                                                                                
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup)                      subprocess.py:495
+           (LayoutInflater.java:374)                                                                                                                                                
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor()                    subprocess.py:495
+           (AppCompatDelegateImpl.java:607)                                                                                                                                         
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)     subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(android.view.View)                     subprocess.py:495
+           (AppCompatDelegateImpl.java:457)                                                                                                                                         
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatActivity.setContentView(android.view.View)                         subprocess.py:495
+           (AppCompatActivity.java:145)                                                                                                                                             
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void org.beeware.android.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:53)                subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle)          subprocess.py:495
+           (Instrumentation.java:1218)                                                                                                                                              
+           01-06 16:07:30.784  8278  8278 I zygote64:   at android.app.Activity                                                                                    subprocess.py:495
+           android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord,   subprocess.py:495
+           android.content.Intent, java.lang.String) (ActivityThread.java:3411)                                                                                                     
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.-wrap12(android.app.ActivityThread,                                     subprocess.py:495
+           android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)                                                      
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)          subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)                          subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.os.Looper.loop() (Looper.java:166)                                                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)                     subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2) subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)                         subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)                  subprocess.py:495
+           01-06 16:07:30.784  8278  8278 I zygote64:                                                                                                              subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>:               subprocess.py:495
+           java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;                                                                    
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void androidx.core.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) subprocess.py:495
+           (ViewCompat.java:2559)                                                                                                                                                   
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void androidx.appcompat.widget.ActionBarContainer.<init>(android.content.Context,                       subprocess.py:495
+           android.util.AttributeSet) (ActionBarContainer.java:62)                                                                                                                  
+           01-06 16:07:30.785  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)   subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)   subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String,            subprocess.py:495
+           android.util.AttributeSet) (LayoutInflater.java:658)                                                                                                                     
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:801)                                                                                   
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet) (LayoutInflater.java:741)                                                                                            
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View,              subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:874)                                                                                   
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View,      subprocess.py:495
+           android.util.AttributeSet, boolean) (LayoutInflater.java:835)                                                                                                            
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser,                     subprocess.py:495
+           android.view.ViewGroup, boolean) (LayoutInflater.java:515)                                                                                                               
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean)             subprocess.py:495
+           (LayoutInflater.java:423)                                                                                                                                                
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup)                      subprocess.py:495
+           (LayoutInflater.java:374)                                                                                                                                                
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor()                    subprocess.py:495
+           (AppCompatDelegateImpl.java:607)                                                                                                                                         
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)     subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(android.view.View)                     subprocess.py:495
+           (AppCompatDelegateImpl.java:457)                                                                                                                                         
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatActivity.setContentView(android.view.View)                         subprocess.py:495
+           (AppCompatActivity.java:145)                                                                                                                                             
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void org.beeware.android.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:53)                subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)                         subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle)          subprocess.py:495
+           (Instrumentation.java:1218)                                                                                                                                              
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.app.Activity                                                                                    subprocess.py:495
+           android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)                     
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord,   subprocess.py:495
+           android.content.Intent, java.lang.String) (ActivityThread.java:3411)                                                                                                     
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.ActivityThread.-wrap12(android.app.ActivityThread,                                     subprocess.py:495
+           android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)                                                      
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)          subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)                          subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.os.Looper.loop() (Looper.java:166)                                                         subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)                     subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2) subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)                         subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)                  subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64: Caused by: java.lang.ClassNotFoundException: Didn't find class                                               subprocess.py:495
+           "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file                                                                                           
+           "/data/app/com.example.atrportable-tDJY_yk7vr6jerUu77cHrA==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.atrportable-tDJY_yk7vr6jerUu77cH                  
+           rA==/lib/arm64, /data/app/com.example.atrportable-tDJY_yk7vr6jerUu77cHrA==/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64, /product/lib64,                        
+           /preas/lib64]]                                                                                                                                                           
+           01-06 16:07:30.785  8278  8278 I zygote64:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String)                            subprocess.py:495
+           (BaseDexClassLoader.java:93)                                                                                                                                             
+           01-06 16:07:30.785  8278  8278 I zygote64:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)       subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)                subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void androidx.core.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) subprocess.py:495
+           (ViewCompat.java:2559)                                                                                                                                                   
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void androidx.appcompat.widget.ActionBarContainer.<init>(android.content.Context,                       subprocess.py:495
+           android.util.AttributeSet) (ActionBarContainer.java:62)                                                                                                                  
+           01-06 16:07:30.785  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)   subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)   subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String,            subprocess.py:495
+           android.util.AttributeSet) (LayoutInflater.java:658)                                                                                                                     
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:801)                                                                                   
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String,    subprocess.py:495
+           android.content.Context, android.util.AttributeSet) (LayoutInflater.java:741)                                                                                            
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View,              subprocess.py:495
+           android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:874)                                                                                   
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View,      subprocess.py:495
+           android.util.AttributeSet, boolean) (LayoutInflater.java:835)                                                                                                            
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser,                     subprocess.py:495
+           android.view.ViewGroup, boolean) (LayoutInflater.java:515)                                                                                                               
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean)             subprocess.py:495
+           (LayoutInflater.java:423)                                                                                                                                                
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup)                      subprocess.py:495
+           (LayoutInflater.java:374)                                                                                                                                                
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor()                    subprocess.py:495
+           (AppCompatDelegateImpl.java:607)                                                                                                                                         
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)     subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(android.view.View)                     subprocess.py:495
+           (AppCompatDelegateImpl.java:457)                                                                                                                                         
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void androidx.appcompat.app.AppCompatActivity.setContentView(android.view.View)                         subprocess.py:495
+           (AppCompatActivity.java:145)                                                                                                                                             
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void org.beeware.android.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:53)                subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7383)                         subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle)          subprocess.py:495
+           (Instrumentation.java:1218)                                                                                                                                              
+           01-06 16:07:30.785  8278  8278 I zygote64:   at android.app.Activity                                                                                    subprocess.py:495
+           android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:3256)                     
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord,   subprocess.py:495
+           android.content.Intent, java.lang.String) (ActivityThread.java:3411)                                                                                                     
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.ActivityThread.-wrap12(android.app.ActivityThread,                                     subprocess.py:495
+           android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)                                                      
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1994)          subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:108)                          subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.os.Looper.loop() (Looper.java:166)                                                         subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7529)                     subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2) subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:245)                         subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:921)                  subprocess.py:495
+           01-06 16:07:30.785  8278  8278 I zygote64:                                                                                                              subprocess.py:495
+           01-06 16:07:30.806  8278  8278 D HwGalleryCacheManagerImpl: mIsEffect:false                                                                             subprocess.py:495
+           01-06 16:07:30.813  8278  8278 D HwRTBlurUtils: check blur style for HwPhoneWindow, themeResId : 0x7f0c0005, context :                                  subprocess.py:495
+           org.beeware.android.MainActivity@1af4c81, Nhwext : 0, get Blur : disable with , null                                                                                     
+           01-06 16:07:30.813  8278  8278 D HwRTBlurUtils: check blur style for HwPhoneWindow, themeResId : 0x7f0c0005, context :                                  subprocess.py:495
+           org.beeware.android.MainActivity@1af4c81, Nhwext : 0, get Blur : disable with , null                                                                                     
+           01-06 16:07:30.821  8278  8278 D MainActivity: Starting Python                                                                                          subprocess.py:495
+           01-06 16:07:30.884  8278  8310 D stdio   : Could not find platform independent libraries <prefix>                                                       subprocess.py:495
+           01-06 16:07:30.884  8278  8310 D stdio   : Could not find platform dependent libraries <exec_prefix>                                                    subprocess.py:495
+           01-06 16:07:30.884  8278  8310 D stdio   : Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]                                                     subprocess.py:495
+           01-06 16:07:31.197  8278  8284 I zygote64: Do partial code cache collection, code=29KB, data=23KB                                                       subprocess.py:495
+           01-06 16:07:31.197  8278  8284 I zygote64: After code cache collection, code=28KB, data=22KB                                                            subprocess.py:495
+           01-06 16:07:31.197  8278  8284 I zygote64: Increasing code cache capacity to 128KB                                                                      subprocess.py:495
+           01-06 16:07:31.482  8278  8278 D MainActivity: Running main module                                                                                      subprocess.py:495
+[16:06:36] 01-06 16:07:36.461  8278  8278 I python.stdout: Python app launched & stored in Android Activity class                                                  subprocess.py:495
+           01-06 16:07:36.461  8278  8278 I python.stdout:                                                                                                         subprocess.py:495
+[16:06:37] 01-06 16:07:36.587  8278  8278 I python.stdout: Toga app: onCreate                                                                                      subprocess.py:495
+           01-06 16:07:36.587  8278  8278 I python.stdout:                                                                                                         subprocess.py:495
+           01-06 16:07:36.587  8278  8278 D MainActivity: onCreate() complete                                                                                      subprocess.py:495
+           01-06 16:07:36.589  8278  8278 D MainActivity: onStart() start                                                                                          subprocess.py:495
+           01-06 16:07:36.589  8278  8278 I python.stdout: Toga app: onStart                                                                                       subprocess.py:495
+           01-06 16:07:36.589  8278  8278 I python.stdout:                                                                                                         subprocess.py:495
+           01-06 16:07:36.589  8278  8278 D MainActivity: onStart() complete                                                                                       subprocess.py:495
+           01-06 16:07:36.590  8278  8278 D ActivityThread: add activity client record, r= ActivityRecord{9632d9f token=android.os.BinderProxy@3b8b95a             subprocess.py:495
+           {com.example.atrportable/org.beeware.android.MainActivity}} token= android.os.BinderProxy@3b8b95a                                                                        
+           01-06 16:07:36.591  8278  8278 D MainActivity: onResume() start                                                                                         subprocess.py:495
+           01-06 16:07:36.592  8278  8278 I python.stdout: Toga app: onResume                                                                                      subprocess.py:495
+           01-06 16:07:36.592  8278  8278 I python.stdout:                                                                                                         subprocess.py:495
+           01-06 16:07:36.592  8278  8278 D MainActivity: onResume() complete                                                                                      subprocess.py:495
+           01-06 16:07:36.596  8278  8278 W VRSystemServiceManager: vr service is not alive                                                                        subprocess.py:495
+           01-06 16:07:36.605  8278  8278 D OpenGLRenderer:   HWUI Binary is  enabled                                                                              subprocess.py:495
+           01-06 16:07:36.606  8278  8663 D OpenGLRenderer: HWUI GL Pipeline                                                                                       subprocess.py:495
+           01-06 16:07:36.626  8278  8278 I PressGestureDetector: onAttached begin                                                                                 subprocess.py:495
+           01-06 16:07:36.628  8278  8278 I PressGestureDetector: onAttached end                                                                                   subprocess.py:495
+           01-06 16:07:36.628  8278  8664 I PressGestureDetector: enabledInPad = false,isPcCastMode = false                                                        subprocess.py:495
+           01-06 16:07:36.690  8278  8663 I OpenGLRenderer: Initialized EGL, version 1.4                                                                           subprocess.py:495
+           01-06 16:07:36.690  8278  8663 D OpenGLRenderer: Swap behavior 2                                                                                        subprocess.py:495
+           01-06 16:07:36.695  8278  8663 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **,     subprocess.py:495
+           egl_color_buffer_format *, EGLBoolean) returns 0x3000                                                                                                                    
+           01-06 16:07:36.707  8278  8278 D MainActivity: onPrepareOptionsMenu() start                                                                             subprocess.py:495
+           01-06 16:07:36.713  8278  8278 D MainActivity: onPrepareOptionsMenu() complete                                                                          subprocess.py:495
+           01-06 16:07:36.768  8278  8278 W InputMethodManager: startInputReason = 1                                                                               subprocess.py:495
+           01-06 16:07:36.804  8278  8278 W InputMethodManager: startInputReason = 5                                                                               subprocess.py:495
+[16:07:00] 01-06 16:08:00.309  8278  8278 I hwaps   : JNI_OnLoad                                                                                                   subprocess.py:495
+           01-06 16:08:00.325  8278  8278 W Settings: mValues not put! needsGenerationTracker: true currentGeneration: -1 name: enable_navbar value: null          subprocess.py:495
+           01-06 16:08:00.447  8278  8278 V AudioManager: playSoundEffect   effectType: 0                                                                          subprocess.py:495
+[16:07:01] 01-06 16:08:00.477  8278  8278 E cv::error(): OpenCV(4.5.1) Error: Unspecified error (The function is not implemented. Rebuild the library with         subprocess.py:495
+           Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script) in                      
+           cvStartWindowThread, file                                                                                                                                                
+           /home/smith/git/chaquo/python/server/pypi/packages/opencv-python/build/4.5.1.48/cp38-cp38-android_21_arm64_v8a/src/opencv/modules/highgui/src/window.cp                  
+           p, line 729                                                                                                                                                              
+           01-06 16:08:00.653  8278  8278 D AndroidRuntime: Shutting down VM                                                                                       subprocess.py:495
+           --------- beginning of crash                                                                                                                            subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime: FATAL EXCEPTION: main                                                                                  subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime: Process: com.example.atrportable, PID: 8278                                                            subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime: com.chaquo.python.PyException: error: OpenCV(4.5.1)                                                    subprocess.py:495
+           /home/smith/git/chaquo/python/server/pypi/packages/opencv-python/build/4.5.1.48/cp38-cp38-android_21_arm64_v8a/src/opencv/modules/highgui/src/window.cp                  
+           p:729: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu                  
+           or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvStartWindowThread'                                                 
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:                                                                                                        subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at <python>.atrportable.Detection_and_Tracking.main(Detection_and_Tracking.py:23)               subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at <python>.atrportable.app.DetectionAndTracking(app.py:40)                                     subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at <python>.toga.handlers._handler(handlers.py:66)                                              subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at <python>.toga_android.widgets.button.onClick(button.py:19)                                   subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at <python>.chaquopy_java.call(chaquopy_java.pyx:379)                                           subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at                                                                                              subprocess.py:495
+           <python>.chaquopy_java.Java_com_chaquo_python_PyObject_callAttrThrowsNative(chaquopy_java.pyx:351)                                                                       
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at com.chaquo.python.PyObject.callAttrThrowsNative(Native Method)                               subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at com.chaquo.python.PyObject.callAttrThrows(PyObject.java:232)                                 subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at com.chaquo.python.PyInvocationHandler.invoke(PyInvocationHandler.java:31)                    subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at java.lang.reflect.Proxy.invoke(Proxy.java:913)                                               subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at $Proxy8.onClick(Unknown Source)                                                              subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at android.view.View.performClick(View.java:6291)                                               subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at android.view.View$PerformClick.run(View.java:24931)                                          subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at android.os.Handler.handleCallback(Handler.java:808)                                          subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at android.os.Handler.dispatchMessage(Handler.java:101)                                         subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at android.os.Looper.loop(Looper.java:166)                                                      subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at android.app.ActivityThread.main(ActivityThread.java:7529)                                    subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at java.lang.reflect.Method.invoke(Native Method)                                               subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:245)                      subprocess.py:495
+           01-06 16:08:00.656  8278  8278 E AndroidRuntime:        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:921)                                 subprocess.py:495
+           01-06 16:08:00.672  8278  8278 I Process : Sending signal. PID: 8278 SIG: 9                                                                             subprocess.py:495
+[16:08:37] read: unexpected EOF!                                                                                                                                   subprocess.py:495
+           >>> Return code: 1                                                                                                                                      subprocess.py:553
+                                                                                                                                                                      __main__.py:27
+           Error starting ADB logcat.                                                                                                                                 __main__.py:28
+
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\integrations\android_sdk.py:1239 in logcat                                                           │
+│                                                                                                                                                                                  │
+│   1236 │   def logcat(self, pid):                                                               ┌─────────────────────────────────── locals ───────────────────────────────────┐ │
+│   1237 │   │   """Start tailing the adb log for the device."""                                  │  pid = '8278'                                                                │ │
+│   1238 │   │   try:                                                                             │ self = <briefcase.integrations.android_sdk.ADB object at 0x000001FE8F4C4FA0> │ │
+│ > 1239 │   │   │   self.tools.subprocess.run(                                                   └──────────────────────────────────────────────────────────────────────────────┘ │
+│   1240 │   │   │   │   [                                                                                                                                                         │
+│   1241 │   │   │   │   │   os.fsdecode(self.tools.android_sdk.adb_path),                                                                                                         │
+│   1242 │   │   │   │   │   "-s",                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\integrations\subprocess.py:110 in inner                                                              │
+│                                                                                                                                                                                  │
+│   107 │   │   """                                                                                                                                                                │
+│   108 │   │   # Just run the command if no dynamic elements are active                                                                                                           │
+│   109 │   │   if not sub.tools.input.is_console_controlled:                                                                                                                      │
+│ > 110 │   │   │   return sub_method(sub, args, **kwargs)                                                                                                                         │
+│   111 │   │                                                                                                                                                                      │
+│   112 │   │   remove_dynamic_elements = False                                                                                                                                    │
+│   113                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────┐                                               │
+│ │       args = [                                                                                                                 │                                               │
+│ │              │   'C:\\Users\\etudiant\\AppData\\Local\\BeeWare\\briefcase\\Cache\\tools\\android_sdk\\platfo'+16,              │                                               │
+│ │              │   '-s',                                                                                                         │                                               │
+│ │              │   'KWG5T16B01040111',                                                                                           │                                               │
+│ │              │   'logcat',                                                                                                     │                                               │
+│ │              │   '--pid',                                                                                                      │                                               │
+│ │              │   '8278',                                                                                                       │                                               │
+│ │              │   'EGL_emulation:S'                                                                                             │                                               │
+│ │              ]                                                                                                                 │                                               │
+│ │     kwargs = {                                                                                                                 │                                               │
+│ │              │   'env': {                                                                                                      │                                               │
+│ │              │   │   'ANDROID_SDK_ROOT': 'C:\\Users\\etudiant\\AppData\\Local\\BeeWare\\briefcase\\Cache\\tools\\android_sdk', │                                               │
+│ │              │   │   'JAVA_HOME': 'C:\\Users\\etudiant\\AppData\\Local\\BeeWare\\briefcase\\Cache\\tools\\java'                │                                               │
+│ │              │   },                                                                                                            │                                               │
+│ │              │   'check': True,                                                                                                │                                               │
+│ │              │   'stream_output': True                                                                                         │                                               │
+│ │              }                                                                                                                 │                                               │
+│ │        sub = <briefcase.integrations.subprocess.Subprocess object at 0x000001FE92BC56D0>                                       │                                               │
+│ │ sub_method = <function Subprocess.run at 0x000001FE922C6B80>                                                                   │                                               │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                               │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\integrations\subprocess.py:284 in run                                                                │
+│                                                                                                                                                                                  │
+│   281 │   │   if stream_output or (                                                                                                                                              │
+│   282 │   │   │   self.tools.input.is_console_controlled and not is_output_redirected                                                                                            │
+│   283 │   │   ):                                                                                                                                                                 │
+│ > 284 │   │   │   return self._run_and_stream_output(args, **kwargs)                                                                                                             │
+│   285 │   │                                                                                                                                                                      │
+│   286 │   │   # Otherwise, invoke run() normally.                                                                                                                                │
+│   287 │   │   self._log_command(args)                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────┐                                     │
+│ │                 args = [                                                                                                                 │                                     │
+│ │                        │   'C:\\Users\\etudiant\\AppData\\Local\\BeeWare\\briefcase\\Cache\\tools\\android_sdk\\platfo'+16,              │                                     │
+│ │                        │   '-s',                                                                                                         │                                     │
+│ │                        │   'KWG5T16B01040111',                                                                                           │                                     │
+│ │                        │   'logcat',                                                                                                     │                                     │
+│ │                        │   '--pid',                                                                                                      │                                     │
+│ │                        │   '8278',                                                                                                       │                                     │
+│ │                        │   'EGL_emulation:S'                                                                                             │                                     │
+│ │                        ]                                                                                                                 │                                     │
+│ │ is_output_redirected = None                                                                                                              │                                     │
+│ │               kwargs = {                                                                                                                 │                                     │
+│ │                        │   'env': {                                                                                                      │                                     │
+│ │                        │   │   'ANDROID_SDK_ROOT': 'C:\\Users\\etudiant\\AppData\\Local\\BeeWare\\briefcase\\Cache\\tools\\android_sdk', │                                     │
+│ │                        │   │   'JAVA_HOME': 'C:\\Users\\etudiant\\AppData\\Local\\BeeWare\\briefcase\\Cache\\tools\\java'                │                                     │
+│ │                        │   },                                                                                                            │                                     │
+│ │                        │   'check': True                                                                                                 │                                     │
+│ │                        }                                                                                                                 │                                     │
+│ │                 self = <briefcase.integrations.subprocess.Subprocess object at 0x000001FE92BC56D0>                                       │                                     │
+│ │        stream_output = True                                                                                                              │                                     │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                     │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\integrations\subprocess.py:350 in _run_and_stream_output                                             │
+│                                                                                                                                                                                  │
+│   347 │   │   self._log_return_code(return_code)                                                                                                                                 │
+│   348 │   │                                                                                                                                                                      │
+│   349 │   │   if check and return_code:                                                                                                                                          │
+│ > 350 │   │   │   raise subprocess.CalledProcessError(return_code, args, stderr=stderr)                                                                                          │
+│   351 │   │                                                                                                                                                                      │
+│   352 │   │   return subprocess.CompletedProcess(args, return_code, stderr=stderr)                                                                                               │
+│   353                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────┐                                              │
+│ │        args = [                                                                                                                 │                                              │
+│ │               │   'C:\\Users\\etudiant\\AppData\\Local\\BeeWare\\briefcase\\Cache\\tools\\android_sdk\\platfo'+16,              │                                              │
+│ │               │   '-s',                                                                                                         │                                              │
+│ │               │   'KWG5T16B01040111',                                                                                           │                                              │
+│ │               │   'logcat',                                                                                                     │                                              │
+│ │               │   '--pid',                                                                                                      │                                              │
+│ │               │   '8278',                                                                                                       │                                              │
+│ │               │   'EGL_emulation:S'                                                                                             │                                              │
+│ │               ]                                                                                                                 │                                              │
+│ │       check = True                                                                                                              │                                              │
+│ │      kwargs = {                                                                                                                 │                                              │
+│ │               │   'env': {                                                                                                      │                                              │
+│ │               │   │   'ANDROID_SDK_ROOT': 'C:\\Users\\etudiant\\AppData\\Local\\BeeWare\\briefcase\\Cache\\tools\\android_sdk', │                                              │
+│ │               │   │   'JAVA_HOME': 'C:\\Users\\etudiant\\AppData\\Local\\BeeWare\\briefcase\\Cache\\tools\\java'                │                                              │
+│ │               │   },                                                                                                            │                                              │
+│ │               │   'stdout': -1,                                                                                                 │                                              │
+│ │               │   'stderr': -2,                                                                                                 │                                              │
+│ │               │   'bufsize': 1                                                                                                  │                                              │
+│ │               }                                                                                                                 │                                              │
+│ │     process = <subprocess.Popen object at 0x000001FE92C69040>                                                                   │                                              │
+│ │ return_code = 1                                                                                                                 │                                              │
+│ │        self = <briefcase.integrations.subprocess.Subprocess object at 0x000001FE92BC56D0>                                       │                                              │
+│ │      stderr = None                                                                                                              │                                              │
+│ └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                              │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+CalledProcessError: Command '['C:\\Users\\etudiant\\AppData\\Local\\BeeWare\\briefcase\\Cache\\tools\\android_sdk\\platform-tools\\adb.exe', '-s', 'KWG5T16B01040111', 'logcat', '--pid', '8278', 'EGL_emulation:S']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\__main__.py:21 in main                                                                               │
+│                                                                                                                                                                                  │
+│   18 │   │   options = command.parse_options(extra=extra_cmdline)                                                                                                                │
+│   19 │   │   command.check_obsolete_data_dir()                                                                                                                                   │
+│   20 │   │   command.parse_config(Path.cwd() / "pyproject.toml")                                                                                                                 │
+│ > 21 │   │   command(**options)                                                                                                                                                  │
+│   22 │   except HelpText as e:                                                                                                                                                   │
+│   23 │   │   logger.info()                                                                                                                                                       │
+│   24 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────── locals ──────────────────────────────────────────────┐                                                                           │
+│ │       command = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x000001FE8F484370> │                                                                           │
+│ │       Command = <class 'briefcase.platforms.android.gradle.GradleRunCommand'>                      │                                                                           │
+│ │       console = <briefcase.console.Console object at 0x000001FE8F8D9AF0>                           │                                                                           │
+│ │             e = BriefcaseCommandError('Error starting ADB logcat.')                                │                                                                           │
+│ │ extra_cmdline = []                                                                                 │                                                                           │
+│ │        logger = <briefcase.console.Log object at 0x000001FE8F48FE50>                               │                                                                           │
+│ │       options = {'appname': None, 'update': False, 'device_or_avd': None}                          │                                                                           │
+│ │        result = 200                                                                                │                                                                           │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                           │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\commands\run.py:68 in __call__                                                                       │
+│                                                                                                                                                                                  │
+│   65 │   │                                                                                                                                                                       │
+│   66 │   │   self.verify_app_tools(app)                                                                                                                                          │
+│   67 │   │                                                                                                                                                                       │
+│ > 68 │   │   state = self.run_app(app, **full_options(state, options))                                                                                                           │
+│   69 │   │                                                                                                                                                                       │
+│   70 │   │   return state                                                                                                                                                        │
+│   71                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────────────────────┐      │
+│ │           app = <com.example.atrportable v0.0.1 AppConfig>                                                                                                              │      │
+│ │       appname = None                                                                                                                                                    │      │
+│ │   binary_file = WindowsPath('C:/Users/etudiant/Java/ATRportable/beeware-venv/Scripts/atrportable/android/gradle/ATRportable/app/build/outputs/apk/debug/app-debug.apk') │      │
+│ │       options = {'device_or_avd': None}                                                                                                                                 │      │
+│ │          self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x000001FE8F484370>                                                                      │      │
+│ │         state = None                                                                                                                                                    │      │
+│ │ template_file = WindowsPath('C:/Users/etudiant/Java/ATRportable/beeware-venv/Scripts/atrportable/android/gradle/ATRportable')                                           │      │
+│ │        update = False                                                                                                                                                   │      │
+│ └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘      │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\platforms\android\gradle.py:246 in run_app                                                           │
+│                                                                                                                                                                                  │
+│   243 │   │   │   prefix=app.app_name,                                                                                                                                           │
+│   244 │   │   )                                                                                                                                                                  │
+│   245 │   │   self.logger.info("=" * 75)                                                                                                                                         │
+│ > 246 │   │   adb.logcat(pid)                                                                                                                                                    │
+│   247                                                                                                                                                                            │
+│   248                                                                                                                                                                            │
+│   249 class GradlePackageCommand(GradleMixin, PackageCommand):                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────── locals ──────────────────────────────────────────────┐                                                                           │
+│ │           adb = <briefcase.integrations.android_sdk.ADB object at 0x000001FE8F4C4FA0>              │                                                                           │
+│ │           app = <com.example.atrportable v0.0.1 AppConfig>                                         │                                                                           │
+│ │           avd = None                                                                               │                                                                           │
+│ │        device = 'KWG5T16B01040111'                                                                 │                                                                           │
+│ │ device_or_avd = None                                                                               │                                                                           │
+│ │        kwargs = {}                                                                                 │                                                                           │
+│ │          name = 'EVA AL10 (KWG5T16B01040111)'                                                      │                                                                           │
+│ │       package = 'com.example.atrportable'                                                          │                                                                           │
+│ │           pid = '8278'                                                                             │                                                                           │
+│ │          self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x000001FE8F484370> │                                                                           │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                           │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\integrations\android_sdk.py:1260 in logcat                                                           │
+│                                                                                                                                                                                  │
+│   1257 │   │   │   #  - on Linux/macOS, adb returns -2.                                         ┌─────────────────────────────────── locals ───────────────────────────────────┐ │
+│   1258 │   │   │   # Exit normally since the user was instructed to use CTRL+C.                 │  pid = '8278'                                                                │ │
+│   1259 │   │   │   if e.returncode not in {-2, 0xC000013A}:                                     │ self = <briefcase.integrations.android_sdk.ADB object at 0x000001FE8F4C4FA0> │ │
+│ > 1260 │   │   │   │   raise BriefcaseCommandError("Error starting ADB logcat.") from e         └──────────────────────────────────────────────────────────────────────────────┘ │
+│   1261 │                                                                                                                                                                         │
+│   1262 │   def pidof(self, package):                                                                                                                                             │
+│   1263 │   │   """Return the PID of the given app as a string, or None if it isn't                                                                                               │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+BriefcaseCommandError: Error starting ADB logcat.
+[16:08:38]                                                                                                                                                            console.py:269
+           >>> Extra information:                                                                                                                                     console.py:270
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\cmdline-tools\latest\bin\sdkmanager.bat' --list_installed            subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Environment Overrides:                                                                                                                              subprocess.py:535
+           >>>     ANDROID_SDK_ROOT=C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk                                                      subprocess.py:537
+           >>>     JAVA_HOME=C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\java                                                                    subprocess.py:537
+[16:08:45] >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     Loading package information...                                                                                                                  subprocess.py:544
+           >>>     Loading local repository...                                                                                                                     subprocess.py:544
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:544
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:544
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:544
+           >>>     Installed packages:                                                                                                                             subprocess.py:544
+           >>>       Path                                        | Version      | Description                                | Location                            subprocess.py:544
+           >>>       -------                                     | -------      | -------                                    | -------                             subprocess.py:544
+           >>>       build-tools;30.0.2                          | 30.0.2       | Android SDK Build-Tools 30.0.2             | build-tools\30.0.2                  subprocess.py:544
+           >>>       cmake;3.10.2.4988404                        | 3.10.2       | CMake 3.10.2.4988404                       | cmake\3.10.2.4988404                subprocess.py:544
+           >>>       emulator                                    | 31.3.13      | Android Emulator                           | emulator                            subprocess.py:544
+           >>>       ndk;21.4.7075529                            | 21.4.7075529 | NDK (Side by side) 21.4.7075529            | ndk\21.4.7075529                    subprocess.py:544
+           >>>       patcher;v4                                  | 1            | SDK Patch Applier v4                       | patcher\v4                          subprocess.py:544
+           >>>       platform-tools                              | 33.0.3       | Android SDK Platform-Tools                 | platform-tools                      subprocess.py:544
+           >>>       platforms;android-32                        | 1            | Android SDK Platform 32                    | platforms\android-32                subprocess.py:544
+           >>>       system-images;android-31;default;x86_64     | 4            | Intel x86 Atom_64 System Image             |                                     subprocess.py:544
+           system-images\android-31\default\x86_64                                                                                                                                  
+           >>>       system-images;android-33;google_apis;x86_64 | 8            | Google APIs Intel x86 Atom_64 System Image |                                     subprocess.py:544
+           system-images\android-33\google_apis\x86_64                                                                                                                              
+           >>>                                                                                                                                                     subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553

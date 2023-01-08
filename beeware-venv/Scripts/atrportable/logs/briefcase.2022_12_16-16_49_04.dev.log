@@ -1,0 +1,266 @@
+Date/Time:       2022-12-16 16:49:05 
+Command line:    C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\briefcase dev
+
+OS Release:      Windows 10
+OS Version:      10.0.19044
+Architecture:    AMD64
+Platform:        Windows-10-10.0.19044-SP0
+
+Python exe:      c:\users\etudiant\java\atrportable\beeware-venv\scripts\python.exe
+Python version:  3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.11
+Target platform: windows
+Target format:   None
+
+Environment Variables:
+    ALLUSERSPROFILE=C:\ProgramData
+    APPDATA=C:\Users\etudiant\AppData\Roaming
+    COMMONPROGRAMFILES=C:\Program Files\Common Files
+    COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+    COMMONPROGRAMW6432=C:\Program Files\Common Files
+    COMPUTERNAME=LATITUDE3510-03
+    COMSPEC=C:\WINDOWS\system32\cmd.exe
+    DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+    HOMEDRIVE=C:
+    HOMEPATH=\Users\etudiant
+    INTELLIJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;
+    INTELLIJ IDEA EDUCATIONAL EDITION=C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 222.4167.41\bin;
+    LOCALAPPDATA=C:\Users\etudiant\AppData\Local
+    LOGONSERVER=\\LATITUDE3510-03
+    NUMBER_OF_PROCESSORS=8
+    ONEDRIVE=C:\Users\etudiant\OneDrive
+    OS=Windows_NT
+    PATH=C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\;C:\Users\etudiant\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 222.4167.41\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;;C:\Users\etudiant\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\etudiant\AppData\Local\GitHubDesktop\bin
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    PROCESSOR_ARCHITECTURE=AMD64
+    PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=8e0c
+    PROGRAMDATA=C:\ProgramData
+    PROGRAMFILES=C:\Program Files
+    PROGRAMFILES(X86)=C:\Program Files (x86)
+    PROGRAMW6432=C:\Program Files
+    PROMPT=(beeware-venv) $P$G
+    PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    PUBLIC=C:\Users\Public
+    SESSIONNAME=Console
+    SYSTEMDRIVE=C:
+    SYSTEMROOT=C:\WINDOWS
+    TEMP=C:\Users\etudiant\AppData\Local\Temp
+    TMP=C:\Users\etudiant\AppData\Local\Temp
+    UATDATA=C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+    USERDOMAIN=LATITUDE3510-03
+    USERDOMAIN_ROAMINGPROFILE=LATITUDE3510-03
+    USERNAME=etudiant
+    USERPROFILE=C:\Users\etudiant
+    VIRTUAL_ENV=C:\Users\etudiant\Java\ATRportable\beeware-venv
+    WINDIR=C:\WINDOWS
+    ZES_ENABLE_SYSMAN=1
+    _OLD_VIRTUAL_PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\;C:\Users\etudiant\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 222.4167.41\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;;C:\Users\etudiant\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\etudiant\AppData\Local\GitHubDesktop\bin
+    _OLD_VIRTUAL_PROMPT=$P$G
+
+Briefcase Log:
+[16:49:03]                                                                                                                                                                dev.py:166
+           [atrportable] Starting in dev mode...                                                                                                                          dev.py:166
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'c:\users\etudiant\java\atrportable\beeware-venv\scripts\python.exe' -u -c 'import runpy, sys;sys.path.pop(0);runpy.run_module("atrportable",   subprocess.py:518
+           run_name="__main__", alter_sys=True)'                                                                                                                                    
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant                                                                                                                               subprocess.py:526
+           >>> Environment Overrides:                                                                                                                              subprocess.py:535
+           >>>     PYTHONPATH=C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable\src                                                              subprocess.py:537
+[16:49:04] Traceback (most recent call last):                                                                                                                      subprocess.py:495
+             File "<string>", line 1, in <module>                                                                                                                  subprocess.py:495
+             File "C:\Users\etudiant\AppData\Local\Programs\Python\Python38\lib\runpy.py", line 207, in run_module                                                 subprocess.py:495
+               return _run_module_code(code, init_globals, run_name, mod_spec)                                                                                     subprocess.py:495
+             File "C:\Users\etudiant\AppData\Local\Programs\Python\Python38\lib\runpy.py", line 97, in _run_module_code                                            subprocess.py:495
+               _run_code(code, mod_globals, init_globals,                                                                                                          subprocess.py:495
+             File "C:\Users\etudiant\AppData\Local\Programs\Python\Python38\lib\runpy.py", line 87, in _run_code                                                   subprocess.py:495
+               exec(code, run_globals)                                                                                                                             subprocess.py:495
+             File "C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable\src\atrportable\__main__.py", line 1, in <module>                           subprocess.py:495
+               from atrportable.app import main                                                                                                                    subprocess.py:495
+             File "C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable\src\atrportable\app.py", line 8, in <module>                                subprocess.py:495
+               import atrportable.Detection_and_Tracking as Detection_and_Tracking                                                                                 subprocess.py:495
+             File "C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable\src\atrportable\Detection_and_Tracking.py", line 5, in <module>             subprocess.py:495
+               from tracker import EuclideanDistTracker                                                                                                            subprocess.py:495
+           ModuleNotFoundError: No module named 'tracker'                                                                                                          subprocess.py:495
+           >>> Return code: 1                                                                                                                                      subprocess.py:553
+                                                                                                                                                                      __main__.py:27
+           Unable to start application 'atrportable'                                                                                                                  __main__.py:28
+
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\commands\dev.py:90 in run_dev_app                                                                    │
+│                                                                                                                                                                                  │
+│    87 │   │   """                                                                                                                                                                │
+│    88 │   │   try:                                                                                                                                                               │
+│    89 │   │   │   # Invoke the app.                                                                                                                                              │
+│ >  90 │   │   │   self.tools.subprocess.run(                                                                                                                                     │
+│    91 │   │   │   │   [                                                                                                                                                          │
+│    92 │   │   │   │   │   sys.executable,                                                                                                                                        │
+│    93 │   │   │   │   │   "-u",                                                                                                                                                  │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────────── locals ───────────────────────────────────────────────────┐                                                                  │
+│ │     app = <com.example.atrportable v0.0.1 AppConfig>                                                        │                                                                  │
+│ │     env = {'PYTHONPATH': 'C:\\Users\\etudiant\\Java\\ATRportable\\beeware-venv\\Scripts\\atrportable\\src'} │                                                                  │
+│ │ options = {}                                                                                                │                                                                  │
+│ │    self = <briefcase.commands.dev.DevCommand object at 0x000002152B0E4100>                                  │                                                                  │
+│ └─────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                  │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\integrations\subprocess.py:110 in inner                                                              │
+│                                                                                                                                                                                  │
+│   107 │   │   """                                                                                                                                                                │
+│   108 │   │   # Just run the command if no dynamic elements are active                                                                                                           │
+│   109 │   │   if not sub.tools.input.is_console_controlled:                                                                                                                      │
+│ > 110 │   │   │   return sub_method(sub, args, **kwargs)                                                                                                                         │
+│   111 │   │                                                                                                                                                                      │
+│   112 │   │   remove_dynamic_elements = False                                                                                                                                    │
+│   113                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────┐                                                   │
+│ │       args = [                                                                                                             │                                                   │
+│ │              │   'c:\\users\\etudiant\\java\\atrportable\\beeware-venv\\scripts\\python.exe',                              │                                                   │
+│ │              │   '-u',                                                                                                     │                                                   │
+│ │              │   '-c',                                                                                                     │                                                   │
+│ │              │   'import runpy, sys;sys.path.pop(0);runpy.run_module("atrportable", run_name="__ma'+22                     │                                                   │
+│ │              ]                                                                                                             │                                                   │
+│ │     kwargs = {                                                                                                             │                                                   │
+│ │              │   'env': {                                                                                                  │                                                   │
+│ │              │   │   'PYTHONPATH': 'C:\\Users\\etudiant\\Java\\ATRportable\\beeware-venv\\Scripts\\atrportable\\src'       │                                                   │
+│ │              │   },                                                                                                        │                                                   │
+│ │              │   'check': True,                                                                                            │                                                   │
+│ │              │   'cwd': WindowsPath('C:/Users/etudiant'),                                                                  │                                                   │
+│ │              │   'stream_output': True                                                                                     │                                                   │
+│ │              }                                                                                                             │                                                   │
+│ │        sub = <briefcase.integrations.subprocess.Subprocess object at 0x000002152B574310>                                   │                                                   │
+│ │ sub_method = <function Subprocess.run at 0x000002152E756B80>                                                               │                                                   │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                   │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\integrations\subprocess.py:284 in run                                                                │
+│                                                                                                                                                                                  │
+│   281 │   │   if stream_output or (                                                                                                                                              │
+│   282 │   │   │   self.tools.input.is_console_controlled and not is_output_redirected                                                                                            │
+│   283 │   │   ):                                                                                                                                                                 │
+│ > 284 │   │   │   return self._run_and_stream_output(args, **kwargs)                                                                                                             │
+│   285 │   │                                                                                                                                                                      │
+│   286 │   │   # Otherwise, invoke run() normally.                                                                                                                                │
+│   287 │   │   self._log_command(args)                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────┐                                         │
+│ │                 args = [                                                                                                             │                                         │
+│ │                        │   'c:\\users\\etudiant\\java\\atrportable\\beeware-venv\\scripts\\python.exe',                              │                                         │
+│ │                        │   '-u',                                                                                                     │                                         │
+│ │                        │   '-c',                                                                                                     │                                         │
+│ │                        │   'import runpy, sys;sys.path.pop(0);runpy.run_module("atrportable", run_name="__ma'+22                     │                                         │
+│ │                        ]                                                                                                             │                                         │
+│ │ is_output_redirected = None                                                                                                          │                                         │
+│ │               kwargs = {                                                                                                             │                                         │
+│ │                        │   'env': {                                                                                                  │                                         │
+│ │                        │   │   'PYTHONPATH': 'C:\\Users\\etudiant\\Java\\ATRportable\\beeware-venv\\Scripts\\atrportable\\src'       │                                         │
+│ │                        │   },                                                                                                        │                                         │
+│ │                        │   'check': True,                                                                                            │                                         │
+│ │                        │   'cwd': WindowsPath('C:/Users/etudiant')                                                                   │                                         │
+│ │                        }                                                                                                             │                                         │
+│ │                 self = <briefcase.integrations.subprocess.Subprocess object at 0x000002152B574310>                                   │                                         │
+│ │        stream_output = True                                                                                                          │                                         │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                         │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\integrations\subprocess.py:350 in _run_and_stream_output                                             │
+│                                                                                                                                                                                  │
+│   347 │   │   self._log_return_code(return_code)                                                                                                                                 │
+│   348 │   │                                                                                                                                                                      │
+│   349 │   │   if check and return_code:                                                                                                                                          │
+│ > 350 │   │   │   raise subprocess.CalledProcessError(return_code, args, stderr=stderr)                                                                                          │
+│   351 │   │                                                                                                                                                                      │
+│   352 │   │   return subprocess.CompletedProcess(args, return_code, stderr=stderr)                                                                                               │
+│   353                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────┐                                                  │
+│ │        args = [                                                                                                             │                                                  │
+│ │               │   'c:\\users\\etudiant\\java\\atrportable\\beeware-venv\\scripts\\python.exe',                              │                                                  │
+│ │               │   '-u',                                                                                                     │                                                  │
+│ │               │   '-c',                                                                                                     │                                                  │
+│ │               │   'import runpy, sys;sys.path.pop(0);runpy.run_module("atrportable", run_name="__ma'+22                     │                                                  │
+│ │               ]                                                                                                             │                                                  │
+│ │       check = True                                                                                                          │                                                  │
+│ │      kwargs = {                                                                                                             │                                                  │
+│ │               │   'env': {                                                                                                  │                                                  │
+│ │               │   │   'PYTHONPATH': 'C:\\Users\\etudiant\\Java\\ATRportable\\beeware-venv\\Scripts\\atrportable\\src'       │                                                  │
+│ │               │   },                                                                                                        │                                                  │
+│ │               │   'cwd': WindowsPath('C:/Users/etudiant'),                                                                  │                                                  │
+│ │               │   'stdout': -1,                                                                                             │                                                  │
+│ │               │   'stderr': -2,                                                                                             │                                                  │
+│ │               │   'bufsize': 1                                                                                              │                                                  │
+│ │               }                                                                                                             │                                                  │
+│ │     process = <subprocess.Popen object at 0x000002152E8557C0>                                                               │                                                  │
+│ │ return_code = 1                                                                                                             │                                                  │
+│ │        self = <briefcase.integrations.subprocess.Subprocess object at 0x000002152B574310>                                   │                                                  │
+│ │      stderr = None                                                                                                          │                                                  │
+│ └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+CalledProcessError: Command '['c:\\users\\etudiant\\java\\atrportable\\beeware-venv\\scripts\\python.exe', '-u', '-c', 'import runpy, sys;sys.path.pop(0);runpy.run_module("atrportable", run_name="__main__", alter_sys=True)']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\__main__.py:21 in main                                                                               │
+│                                                                                                                                                                                  │
+│   18 │   │   options = command.parse_options(extra=extra_cmdline)                                                                                                                │
+│   19 │   │   command.check_obsolete_data_dir()                                                                                                                                   │
+│   20 │   │   command.parse_config(Path.cwd() / "pyproject.toml")                                                                                                                 │
+│ > 21 │   │   command(**options)                                                                                                                                                  │
+│   22 │   except HelpText as e:                                                                                                                                                   │
+│   23 │   │   logger.info()                                                                                                                                                       │
+│   24 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────── locals ──────────────────────────────────────┐                                                                                           │
+│ │       command = <briefcase.commands.dev.DevCommand object at 0x000002152B0E4100>   │                                                                                           │
+│ │       Command = <class 'briefcase.commands.dev.DevCommand'>                        │                                                                                           │
+│ │       console = <briefcase.console.Console object at 0x000002152B569AF0>           │                                                                                           │
+│ │             e = BriefcaseCommandError("Unable to start application 'atrportable'") │                                                                                           │
+│ │ extra_cmdline = []                                                                 │                                                                                           │
+│ │        logger = <briefcase.console.Log object at 0x000002152B0EFE50>               │                                                                                           │
+│ │       options = {'appname': None, 'update_dependencies': False, 'run_app': True}   │                                                                                           │
+│ │        result = 200                                                                │                                                                                           │
+│ └────────────────────────────────────────────────────────────────────────────────────┘                                                                                           │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\commands\dev.py:168 in __call__                                                                      │
+│                                                                                                                                                                                  │
+│   165 │   │   if run_app:                                                                                                                                                        │
+│   166 │   │   │   self.logger.info("Starting in dev mode...", prefix=app.app_name)                                                                                               │
+│   167 │   │   │   env = self.get_environment(app)                                                                                                                                │
+│ > 168 │   │   │   return self.run_dev_app(app, env, **options)                                                                                                                   │
+│   169                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────┐                                           │
+│ │                 app = <com.example.atrportable v0.0.1 AppConfig>                                                                   │                                           │
+│ │             appname = None                                                                                                         │                                           │
+│ │      dist_info_path = WindowsPath('C:/Users/etudiant/Java/ATRportable/beeware-venv/Scripts/atrportable/src/atrportable.dist-info') │                                           │
+│ │                 env = {'PYTHONPATH': 'C:\\Users\\etudiant\\Java\\ATRportable\\beeware-venv\\Scripts\\atrportable\\src'}            │                                           │
+│ │             options = {}                                                                                                           │                                           │
+│ │             run_app = True                                                                                                         │                                           │
+│ │                self = <briefcase.commands.dev.DevCommand object at 0x000002152B0E4100>                                             │                                           │
+│ │ update_dependencies = False                                                                                                        │                                           │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                           │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\commands\dev.py:107 in run_dev_app                                                                   │
+│                                                                                                                                                                                  │
+│   104 │   │   │   │   stream_output=True,                                                                                                                                        │
+│   105 │   │   │   )                                                                                                                                                              │
+│   106 │   │   except subprocess.CalledProcessError as e:                                                                                                                         │
+│ > 107 │   │   │   raise BriefcaseCommandError(                                                                                                                                   │
+│   108 │   │   │   │   f"Unable to start application '{app.app_name}'"                                                                                                            │
+│   109 │   │   │   ) from e                                                                                                                                                       │
+│   110                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────────── locals ───────────────────────────────────────────────────┐                                                                  │
+│ │     app = <com.example.atrportable v0.0.1 AppConfig>                                                        │                                                                  │
+│ │     env = {'PYTHONPATH': 'C:\\Users\\etudiant\\Java\\ATRportable\\beeware-venv\\Scripts\\atrportable\\src'} │                                                                  │
+│ │ options = {}                                                                                                │                                                                  │
+│ │    self = <briefcase.commands.dev.DevCommand object at 0x000002152B0E4100>                                  │                                                                  │
+│ └─────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+BriefcaseCommandError: Unable to start application 'atrportable'

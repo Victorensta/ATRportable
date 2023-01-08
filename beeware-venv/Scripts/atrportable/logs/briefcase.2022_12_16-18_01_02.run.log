@@ -1,0 +1,378 @@
+Date/Time:       2022-12-16 18:01:07 
+Command line:    C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\briefcase run android
+
+OS Release:      Windows 10
+OS Version:      10.0.19044
+Architecture:    AMD64
+Platform:        Windows-10-10.0.19044-SP0
+
+Python exe:      c:\users\etudiant\java\atrportable\beeware-venv\scripts\python.exe
+Python version:  3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.11
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+    ALLUSERSPROFILE=C:\ProgramData
+    APPDATA=C:\Users\etudiant\AppData\Roaming
+    COMMONPROGRAMFILES=C:\Program Files\Common Files
+    COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+    COMMONPROGRAMW6432=C:\Program Files\Common Files
+    COMPUTERNAME=LATITUDE3510-03
+    COMSPEC=C:\WINDOWS\system32\cmd.exe
+    DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+    HOMEDRIVE=C:
+    HOMEPATH=\Users\etudiant
+    INTELLIJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;
+    INTELLIJ IDEA EDUCATIONAL EDITION=C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 222.4167.41\bin;
+    LOCALAPPDATA=C:\Users\etudiant\AppData\Local
+    LOGONSERVER=\\LATITUDE3510-03
+    NUMBER_OF_PROCESSORS=8
+    ONEDRIVE=C:\Users\etudiant\OneDrive
+    OS=Windows_NT
+    PATH=C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\;C:\Users\etudiant\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 222.4167.41\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;;C:\Users\etudiant\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\etudiant\AppData\Local\GitHubDesktop\bin
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    PROCESSOR_ARCHITECTURE=AMD64
+    PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=8e0c
+    PROGRAMDATA=C:\ProgramData
+    PROGRAMFILES=C:\Program Files
+    PROGRAMFILES(X86)=C:\Program Files (x86)
+    PROGRAMW6432=C:\Program Files
+    PROMPT=(beeware-venv) $P$G
+    PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    PUBLIC=C:\Users\Public
+    SESSIONNAME=Console
+    SYSTEMDRIVE=C:
+    SYSTEMROOT=C:\WINDOWS
+    TEMP=C:\Users\etudiant\AppData\Local\Temp
+    TMP=C:\Users\etudiant\AppData\Local\Temp
+    UATDATA=C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+    USERDOMAIN=LATITUDE3510-03
+    USERDOMAIN_ROAMINGPROFILE=LATITUDE3510-03
+    USERNAME=etudiant
+    USERPROFILE=C:\Users\etudiant
+    VIRTUAL_ENV=C:\Users\etudiant\Java\ATRportable\beeware-venv
+    WINDIR=C:\WINDOWS
+    ZES_ENABLE_SYSMAN=1
+    _OLD_VIRTUAL_PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\etudiant\AppData\Local\Programs\Python\Python38\;C:\Users\etudiant\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 222.4167.41\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;;C:\Users\etudiant\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\etudiant\AppData\Local\GitHubDesktop\bin
+    _OLD_VIRTUAL_PROMPT=$P$G
+
+Briefcase Log:
+[18:00:39] >>> Android emulator is already installed.                                                                                                             android_sdk.py:409
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' devices -l                                   subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     List of devices attached                                                                                                                        subprocess.py:544
+           >>>                                                                                                                                                     subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\emulator\emulator.exe' -list-avds                                    subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     Pixel_2_API_TiramisuPrivacySandbox                                                                                                              subprocess.py:544
+           >>>     Pixel_3a_API_33_x86_64                                                                                                                          subprocess.py:544
+           >>>     Pixel_XL_API_33                                                                                                                                 subprocess.py:544
+           >>>     Pixel_XL_API_33_2                                                                                                                               subprocess.py:544
+           >>>     beePhone                                                                                                                                        subprocess.py:544
+           >>>     beePhone2                                                                                                                                       subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+                                                                                                                                                                  android_sdk.py:764
+           Select device:                                                                                                                                         android_sdk.py:765
+                                                                                                                                                                  android_sdk.py:766
+             1) @Pixel_2_API_TiramisuPrivacySandbox (emulator)                                                                                                        console.py:562
+             2) @Pixel_3a_API_33_x86_64 (emulator)                                                                                                                    console.py:562
+             3) @Pixel_XL_API_33 (emulator)                                                                                                                           console.py:562
+             4) @Pixel_XL_API_33_2 (emulator)                                                                                                                         console.py:562
+             5) @beePhone (emulator)                                                                                                                                  console.py:562
+             6) @beePhone2 (emulator)                                                                                                                                 console.py:562
+             7) Create a new Android emulator                                                                                                                         console.py:562
+                                                                                                                                                                      console.py:564
+[18:00:48] >                                                                                                                                                          console.py:567
+           >>> User input: 4                                                                                                                                          console.py:567
+                                                                                                                                                                  android_sdk.py:811
+           In future, you can specify this device by running:                                                                                                     android_sdk.py:811
+                                                                                                                                                                  android_sdk.py:811
+               $ briefcase run android -d @Pixel_XL_API_33_2                                                                                                      android_sdk.py:811
+                                                                                                                                                                  android_sdk.py:473
+           *************************************************************************                                                                              android_sdk.py:473
+           ** WARNING: Unrecognized device skin                                   **                                                                              android_sdk.py:473
+           *************************************************************************                                                                              android_sdk.py:473
+                                                                                                                                                                  android_sdk.py:473
+               Briefcase does not recognize the skin 'pixel_xl_silver' used by the                                                                                android_sdk.py:473
+               Android emulator AVD 'Pixel_XL_API_33_2'.                                                                                                          android_sdk.py:473
+                                                                                                                                                                  android_sdk.py:473
+               Briefcase will proceed assuming the emulator is correctly                                                                                          android_sdk.py:473
+               configured. If you experience any problems running the emulator,                                                                                   android_sdk.py:473
+               this may be the cause of the problem.                                                                                                              android_sdk.py:473
+                                                                                                                                                                  android_sdk.py:473
+           *************************************************************************                                                                              android_sdk.py:473
+                                                                                                                                                                       gradle.py:209
+           [atrportable] Starting emulator Pixel_XL_API_33_2...                                                                                                        gradle.py:209
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\emulator\emulator.exe' -list-avds                                    subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     Pixel_2_API_TiramisuPrivacySandbox                                                                                                              subprocess.py:544
+           >>>     Pixel_3a_API_33_x86_64                                                                                                                          subprocess.py:544
+           >>>     Pixel_XL_API_33                                                                                                                                 subprocess.py:544
+           >>>     Pixel_XL_API_33_2                                                                                                                               subprocess.py:544
+           >>>     beePhone                                                                                                                                        subprocess.py:544
+           >>>     beePhone2                                                                                                                                       subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\emulator\emulator.exe' @Pixel_XL_API_33_2 -dns-server 8.8.8.8        subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Environment Overrides:                                                                                                                              subprocess.py:535
+           >>>     ANDROID_SDK_ROOT=C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk                                                      subprocess.py:537
+           >>>     JAVA_HOME=C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\java                                                                    subprocess.py:537
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' devices -l                                   subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     List of devices attached                                                                                                                        subprocess.py:544
+           >>>                                                                                                                                                     subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+[18:00:50]                                                                                                                                                         subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' devices -l                                   subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     List of devices attached                                                                                                                        subprocess.py:544
+           >>>                                                                                                                                                     subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+[18:00:52]                                                                                                                                                         subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' devices -l                                   subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     List of devices attached                                                                                                                        subprocess.py:544
+           >>>     emulator-5554          offline transport_id:5                                                                                                   subprocess.py:544
+           >>>                                                                                                                                                     subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+[18:00:54]                                                                                                                                                         subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' devices -l                                   subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     List of devices attached                                                                                                                        subprocess.py:544
+           >>>     emulator-5554          offline transport_id:5                                                                                                   subprocess.py:544
+           >>>                                                                                                                                                     subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+[18:00:56]                                                                                                                                                         subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' devices -l                                   subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     List of devices attached                                                                                                                        subprocess.py:544
+           >>>     emulator-5554          offline transport_id:5                                                                                                   subprocess.py:544
+           >>>                                                                                                                                                     subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+[18:00:58]                                                                                                                                                         subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' devices -l                                   subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     List of devices attached                                                                                                                        subprocess.py:544
+           >>>     emulator-5554          offline transport_id:5                                                                                                   subprocess.py:544
+           >>>                                                                                                                                                     subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+[18:01:00]                                                                                                                                                         subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' devices -l                                   subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     List of devices attached                                                                                                                        subprocess.py:544
+           >>>     emulator-5554          offline transport_id:5                                                                                                   subprocess.py:544
+           >>>                                                                                                                                                     subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
+[18:01:02] Starting emulator...                                                                                                                                  android_sdk.py:1048
+           INFO    | Android emulator version 31.3.13.0 (build_id 9189900) (CL:N/A)                                                                              android_sdk.py:1076
+           emulator: INFO: Found systemPath                                                                                                                      android_sdk.py:1076
+           C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\system-images\android-33\google_apis\x86_64\                                                   
+           WARNING | Camera name 'webcam0' is not found in the list of connected cameras.                                                                        android_sdk.py:1076
+           Use '-webcam-list' emulator option to obtain the list of connected camera names.                                                                      android_sdk.py:1076
+                                                                                                                                                                 android_sdk.py:1076
+           INFO    | Duplicate loglines will be removed, if you wish to see each indiviudal line launch with the -log-nofilter flag.                             android_sdk.py:1076
+           INFO    | added library vulkan-1.dll                                                                                                                  android_sdk.py:1076
+           INFO    | configAndStartRenderer: setting vsync to 60 hz                                                                                              android_sdk.py:1076
+           INFO    | Sending adb public key                                                                                                                      android_sdk.py:1076
+           [QAAAAOsqthk90mkCqcC3AZ13UXCk9QipvVPdtQy1A0kNlXXBbu15XOT44j+5yRs5HAeA45HAvepPjQpsxzBbjR5RB6G2PDyMWWYcg+YcvVLdZ7JrOX/ELyGwNCQUR8RD2SHqGbisnjY3IPM/J3Go                    
+           +B7x5Yxf5Bmrz+NnfON1bpu6So15+57JjfELmypDYlTcZW22IBncNvm6+avYJ5WJ4LHikERR3EFT+qR2Lg2hzPUzuNAClVRq0/+F6eBYoiGU9ZK+GATfX/IDhD0Zaq9JPGzrI5NHktSnIIkjyNrfH                    
+           CCCYRl04Br+gRrEmQyA/Vzw1GOIFG7cFpn6WmUfKo0qcSd9T/Kqbmqfy6cbGjJMh0AVrqZLF/+NBTT45W35w3CH9TBz+C0tESI2iB2NzjGYVdjm6RC/d2UacHTShJEsg/i5Cv5FnNicYqKlD7JSDW                    
+           3iMnZmgO0A2bhMQJAik73Lnn4vo2ih4w2ezXyFksz0Ncde/wnzQJAiTr/O9ZobH0y3j1rlYNfJPVnzr1u/x12knCsC5xcgUJ/eKBZ5+uLK7UaGlHcFmmiyqhtvjNaZhl1784jGbWyCKww8pEdJlw/                    
+           cXsV1BQWl1EvF3bXeUSFSirPsNP/gMKVuFP1+n/7MPCyMlLYGOxVnS+daWkB5hhybRGhjOKfv9oO+D/abw3KOJroHwABtqmARmAEAAQA= @unknown]                                                      
+           INFO    | Could not find common subtype for pixel formats, falling back to RGB32.                                                                     android_sdk.py:1076
+           INFO    | injectedQemuChannel!                                                                                                                        android_sdk.py:1076
+           INFO    | Informing listeners of injection.                                                                                                           android_sdk.py:1076
+           INFO    | Rootcanal has  been activated.                                                                                                              android_sdk.py:1076
+           HAX is working and emulator runs in fast virt mode.                                                                                                   android_sdk.py:1076
+           WARNING | *** No gRPC protection active, consider launching with the -grpc-use-jwt flag.***                                                           android_sdk.py:1076
+           INFO    | Started GRPC server at 127.0.0.1:8554, security: Local, auth: none                                                                          android_sdk.py:1076
+           INFO    | Advertising in: C:\Users\etudiant\AppData\Local\Temp\avd\running\pid_7356.ini                                                               android_sdk.py:1076
+           INFO    | setDisplayConfigs w 1440 h 2560 dpiX 560 dpiY 560                                                                                           android_sdk.py:1076
+           VCPU shutdown request                                                                                                                                 android_sdk.py:1076
+           VCPU shutdown request                                                                                                                                 android_sdk.py:1076
+           INFO    | Closing down rootcanal.                                                                                                                     android_sdk.py:1076
+                                                                                                                                                                      __main__.py:27
+           Android emulator was unable to start!                                                                                                                      __main__.py:28
+                                                                                                                                                                      __main__.py:28
+           Try starting the emulator manually by running:                                                                                                             __main__.py:28
+                                                                                                                                                                      __main__.py:28
+               $ C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\emulator\emulator.exe @Pixel_XL_API_33_2 -dns-server 8.8.8.8               __main__.py:28
+                                                                                                                                                                      __main__.py:28
+           Resolve any problems you discover, then try running your app again. You may                                                                                __main__.py:28
+           find this page helpful in diagnosing emulator problems.                                                                                                    __main__.py:28
+                                                                                                                                                                      __main__.py:28
+               https://developer.android.com/studio/run/emulator-acceleration#accel-vm                                                                                __main__.py:28
+
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\__main__.py:21 in main                                                                               │
+│                                                                                                                                                                                  │
+│   18 │   │   options = command.parse_options(extra=extra_cmdline)                                                                                                                │
+│   19 │   │   command.check_obsolete_data_dir()                                                                                                                                   │
+│   20 │   │   command.parse_config(Path.cwd() / "pyproject.toml")                                                                                                                 │
+│ > 21 │   │   command(**options)                                                                                                                                                  │
+│   22 │   except HelpText as e:                                                                                                                                                   │
+│   23 │   │   logger.info()                                                                                                                                                       │
+│   24 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────┐ │
+│ │       command = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x0000023F348E4370>                                                                           │ │
+│ │       Command = <class 'briefcase.platforms.android.gradle.GradleRunCommand'>                                                                                                │ │
+│ │       console = <briefcase.console.Console object at 0x0000023F34D59AF0>                                                                                                     │ │
+│ │             e = BriefcaseCommandError('Android emulator was unable to start!\n\nTry starting the emulator manually by running:\n\n    $                                      │ │
+│ │                 C:\\Users\\etudiant\\AppData\\Local\\BeeWare\\briefcase\\Cache\\tools\\android_sdk\\emulator\\emulator.exe @Pixel_XL_API_33_2 -dns-server 8.8.8.8\n\nResolve │ │
+│ │                 any problems you discover, then try running your app again. You may\nfind this page helpful in diagnosing emulator problems.\n\n                             │ │
+│ │                 https://developer.android.com/studio/run/emulator-acceleration#accel-vm\n')                                                                                  │ │
+│ │ extra_cmdline = []                                                                                                                                                           │ │
+│ │        logger = <briefcase.console.Log object at 0x0000023F348EFE50>                                                                                                         │ │
+│ │       options = {'appname': None, 'update': False, 'device_or_avd': None}                                                                                                    │ │
+│ │        result = 200                                                                                                                                                          │ │
+│ └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\commands\run.py:68 in __call__                                                                       │
+│                                                                                                                                                                                  │
+│   65 │   │                                                                                                                                                                       │
+│   66 │   │   self.verify_app_tools(app)                                                                                                                                          │
+│   67 │   │                                                                                                                                                                       │
+│ > 68 │   │   state = self.run_app(app, **full_options(state, options))                                                                                                           │
+│   69 │   │                                                                                                                                                                       │
+│   70 │   │   return state                                                                                                                                                        │
+│   71                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────────────────────┐      │
+│ │           app = <com.example.atrportable v0.0.1 AppConfig>                                                                                                              │      │
+│ │       appname = None                                                                                                                                                    │      │
+│ │   binary_file = WindowsPath('C:/Users/etudiant/Java/ATRportable/beeware-venv/Scripts/atrportable/android/gradle/ATRportable/app/build/outputs/apk/debug/app-debug.apk') │      │
+│ │       options = {'device_or_avd': None}                                                                                                                                 │      │
+│ │          self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x0000023F348E4370>                                                                      │      │
+│ │         state = None                                                                                                                                                    │      │
+│ │ template_file = WindowsPath('C:/Users/etudiant/Java/ATRportable/beeware-venv/Scripts/atrportable/android/gradle/ATRportable')                                           │      │
+│ │        update = False                                                                                                                                                   │      │
+│ └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘      │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\platforms\android\gradle.py:210 in run_app                                                           │
+│                                                                                                                                                                                  │
+│   207 │   │   │   │   self.tools.android_sdk.verify_avd(avd)                                                                                                                     │
+│   208 │   │   │                                                                                                                                                                  │
+│   209 │   │   │   self.logger.info(f"Starting emulator {avd}...", prefix=app.app_name)                                                                                           │
+│ > 210 │   │   │   device, name = self.tools.android_sdk.start_emulator(avd)                                                                                                      │
+│   211 │   │                                                                                                                                                                      │
+│   212 │   │   self.logger.info(                                                                                                                                                  │
+│   213 │   │   │   f"Starting app on {name} (device ID {device})", prefix=app.app_name                                                                                            │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────── locals ──────────────────────────────────────────────┐                                                                           │
+│ │           app = <com.example.atrportable v0.0.1 AppConfig>                                         │                                                                           │
+│ │           avd = 'Pixel_XL_API_33_2'                                                                │                                                                           │
+│ │        device = None                                                                               │                                                                           │
+│ │ device_or_avd = None                                                                               │                                                                           │
+│ │        kwargs = {}                                                                                 │                                                                           │
+│ │          name = '@Pixel_XL_API_33_2 (emulator)'                                                    │                                                                           │
+│ │          self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x0000023F348E4370> │                                                                           │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                           │
+│                                                                                                                                                                                  │
+│ c:\users\etudiant\java\atrportable\beeware-venv\lib\site-packages\briefcase\integrations\android_sdk.py:1015 in start_emulator                                                   │
+│                                                                                                                                                                                  │
+│   1012 │   │   │   │   known_devices = set()                                                                                                                                     │
+│   1013 │   │   │   │   while adb is None:                                                                                                                                        │
+│   1014 │   │   │   │   │   if emulator_popen.poll() is not None:                                                                                                                 │
+│ > 1015 │   │   │   │   │   │   raise BriefcaseCommandError(                                                                                                                      │
+│   1016 │   │   │   │   │   │   │   f"""\                                                                                                                                         │
+│   1017 Android emulator was unable to start!                                                                                                                                     │
+│   1018                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────────── locals ────────────────────────────────────────────┐                                                                                │
+│ │            adb = None                                                                         │                                                                                │
+│ │            avd = 'Pixel_XL_API_33_2'                                                          │                                                                                │
+│ │        details = {'name': 'Unknown device (offline)', 'authorized': False}                    │                                                                                │
+│ │         device = 'emulator-5554'                                                              │                                                                                │
+│ │ emulator_popen = <subprocess.Popen object at 0x0000023F34D7B880>                              │                                                                                │
+│ │  known_devices = set()                                                                        │                                                                                │
+│ │           self = <briefcase.integrations.android_sdk.AndroidSDK object at 0x0000023F38097F40> │                                                                                │
+│ └───────────────────────────────────────────────────────────────────────────────────────────────┘                                                                                │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+BriefcaseCommandError: Android emulator was unable to start!
+
+Try starting the emulator manually by running:
+
+    $ C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\emulator\emulator.exe @Pixel_XL_API_33_2 -dns-server 8.8.8.8
+
+Resolve any problems you discover, then try running your app again. You may
+find this page helpful in diagnosing emulator problems.
+
+    https://developer.android.com/studio/run/emulator-acceleration#accel-vm
+
+[18:01:03]                                                                                                                                                            console.py:269
+           >>> Extra information:                                                                                                                                     console.py:270
+                                                                                                                                                                   subprocess.py:516
+           >>> Running Command:                                                                                                                                    subprocess.py:517
+           >>>     'C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\cmdline-tools\latest\bin\sdkmanager.bat' --list_installed            subprocess.py:518
+           >>> Working Directory:                                                                                                                                  subprocess.py:525
+           >>>     C:\Users\etudiant\Java\ATRportable\beeware-venv\Scripts\atrportable                                                                             subprocess.py:526
+           >>> Environment Overrides:                                                                                                                              subprocess.py:535
+           >>>     ANDROID_SDK_ROOT=C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk                                                      subprocess.py:537
+           >>>     JAVA_HOME=C:\Users\etudiant\AppData\Local\BeeWare\briefcase\Cache\tools\java                                                                    subprocess.py:537
+[18:01:07] >>> Command Output:                                                                                                                                     subprocess.py:542
+           >>>     Loading package information...                                                                                                                  subprocess.py:544
+           >>>     Loading local repository...                                                                                                                     subprocess.py:544
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:544
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:544
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:544
+           >>>     Installed packages:                                                                                                                             subprocess.py:544
+           >>>       Path                                        | Version      | Description                                | Location                            subprocess.py:544
+           >>>       -------                                     | -------      | -------                                    | -------                             subprocess.py:544
+           >>>       build-tools;30.0.2                          | 30.0.2       | Android SDK Build-Tools 30.0.2             | build-tools\30.0.2                  subprocess.py:544
+           >>>       cmake;3.10.2.4988404                        | 3.10.2       | CMake 3.10.2.4988404                       | cmake\3.10.2.4988404                subprocess.py:544
+           >>>       emulator                                    | 31.3.13      | Android Emulator                           | emulator                            subprocess.py:544
+           >>>       ndk;21.4.7075529                            | 21.4.7075529 | NDK (Side by side) 21.4.7075529            | ndk\21.4.7075529                    subprocess.py:544
+           >>>       patcher;v4                                  | 1            | SDK Patch Applier v4                       | patcher\v4                          subprocess.py:544
+           >>>       platform-tools                              | 33.0.3       | Android SDK Platform-Tools                 | platform-tools                      subprocess.py:544
+           >>>       platforms;android-32                        | 1            | Android SDK Platform 32                    | platforms\android-32                subprocess.py:544
+           >>>       system-images;android-31;default;x86_64     | 4            | Intel x86 Atom_64 System Image             |                                     subprocess.py:544
+           system-images\android-31\default\x86_64                                                                                                                                  
+           >>>       system-images;android-33;google_apis;x86_64 | 8            | Google APIs Intel x86 Atom_64 System Image |                                     subprocess.py:544
+           system-images\android-33\google_apis\x86_64                                                                                                                              
+           >>>                                                                                                                                                     subprocess.py:544
+           >>> Return code: 0                                                                                                                                      subprocess.py:553
