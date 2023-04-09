@@ -6,17 +6,16 @@ import numpy as np
 known_face_encodings = faces_database.known_face_encodings
 known_face_names = faces_database.known_face_names
 
-
 # Initialize some variables
 face_locations = []
 face_encodings = []
 face_names = []
 process_this_frame = True
 
+# capture = cv2.VideoCapture('http://192.168.9.200/video')
 capture = cv2.VideoCapture(1)
 
 while True:
-
     frame_width = capture.get(3)
     frame_height = capture.get(4)
     # Grab a single frame of video
@@ -69,9 +68,9 @@ while True:
         # Draw a label with a name below the face
         cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 255, 0), cv2.FILLED)
         font = cv2.FONT_HERSHEY_DUPLEX
-        #name = str((left, top))
-        #name = str((right, bottom))
-        name = str((frame_width,frame_height))
+        # name = str((left, top))
+        # name = str((right, bottom))
+        name = str((frame_width, frame_height))
         # 1280, 716
         cv2.putText(frame, name, (left + 4, bottom - 4), font, 1, (0, 0, 255), 2)
 

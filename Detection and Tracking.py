@@ -8,9 +8,6 @@ from tracker import EuclideanDistTracker
 
 # initialize the trackers
 body_tracker = EuclideanDistTracker("Person")
-frontal_face_tracker = EuclideanDistTracker("Frontal Face")
-# profile_face_tracker = EuclideanDistTracker("Profile Face")
-# upper_body_tracker = EuclideanDistTracker("Upper Body")
 
 # initialize the HOG descriptor/person detector
 hog = cv2.HOGDescriptor()
@@ -18,9 +15,6 @@ hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 # face and eyes detection
 # according to online and my own testing, Haar_cascade is not great at identifying bodies, but works well for faces
 # I copied the files locally rather than typing out the long filepath of the openCV original
-frontal_face_cascade = cv2.CascadeClassifier('Haar_copies/haarcascade_frontalface_default_localcopy.xml')
-profile_face_cascade = cv2.CascadeClassifier('Haar_copies/haarcascade_profileface_localcopy.xml')
-upper_body_cascade = cv2.CascadeClassifier('Haar_copies/data_copy/haarcascade_upperbody.xml')
 
 # Identification
 known_face_encodings = faces_database.known_face_encodings
@@ -69,22 +63,12 @@ while True:
     # detect people and faces in the image
     # returns the bounding boxes for the detected objects
     bodies, weights_body = hog.detectMultiScale(img=gray, padding=(8, 8), scale=1.03, winStride=(8, 8))
-    frontal_faces = frontal_face_cascade.detectMultiScale(image=gray, scaleFactor=1.3, minNeighbors=5)
-    # profile_faces = profile_face_cascade.detectMultiScale(image=gray, scaleFactor=1.3, minNeighbors=5)
-    # upper_bodies = upper_body_cascade.detectMultiScale(image=gray, scaleFactor=1.3, minNeighbors=5)
 
     # convert bounding boxes to new format
     bodies = np.array([[x, y, w, h] for (x, y, w, h) in bodies])
-    frontal_faces = np.array([[x, y, w, h] for (x, y, w, h) in frontal_faces])
-    # profile_faces = np.array([[x, y, w, h] for (x, y, w, h) in frontal_faces])
-    # upper_bodies = np.array([[x, y, w, h] for (x, y, w, h) in frontal_faces])
 
     # id handling
     bodies_ids = body_tracker.update(bodies)
-    frontal_faces_ids = frontal_face_tracker.update(frontal_faces)
-    # profile_faces_ids = profile_face_tracker.update(profile_faces)
-    # upper_bodies_ids = upper_body_tracker.update(upper_bodies)
-    # before trying this, it only had frontal_faces
 
     # display the detected body boxes in the colour picture
     for body_id in bodies_ids:
@@ -94,26 +78,6 @@ while True:
         # (image, (left, top), (right, bottom), (B, G, R), thickness)
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
-    # display the detected face boxes in the colour picture
-    for frontal_face_id in frontal_faces_ids:
-        x, y, w, h, id = frontal_face_id
-        #cv2.putText(frame, 'Frontal Face '+str(id)+str((x,y))+str((x+w,y+h)), (x, y - 15), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
-        cv2.putText(frame, 'Frontal Face ' + str(id), (x, y - 15), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
-        # frontal_faces in blue
-        cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
-        '''
-    for profile_face_id in profile_faces_ids: #profile_faces in blue
-        x, y, w, h, id = profile_face_id
-        cv2.putText(frame, 'Profile Face '+str(id), (x, y - 15), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
-        cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
-        '''
-        '''
-    for upper_body_id in upper_bodies_ids: #body in green
-        # display the detected boxes in the colour picture
-        x, y, w, h, id = upper_body_id
-        cv2.putText(frame, 'Torso '+str(id), (x, y - 15), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
-        cv2.rectangle(frame, (x, y), (x + w, y + h), (14, 255, 142), 2)
-        '''
     # Only process every other frame of video to save time
     if process_this_frame:
         # Find all the faces and face encodings in the current frame of video
@@ -151,7 +115,6 @@ while True:
         # Draw a label with a name below the face
         cv2.rectangle(frame, (left, bottom - 17), (right, bottom), (0, 255, 0), cv2.FILLED)
         font = cv2.FONT_HERSHEY_DUPLEX
-        print("We have a face !!!!!!!!!!!!!!!!")
         #name = str((left, top))+str((right, bottom))+str((frame_width, frame_height))
         cv2.putText(frame, name, (left + 4, bottom - 4), font, 1, (0, 0, 255), 2)
 
