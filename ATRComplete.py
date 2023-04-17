@@ -3,13 +3,12 @@ import numpy as np
 import cv2 as cv2
 import time
 import face_recognition
-import faces_database
 from tracker import EuclideanDistTracker
 
 # Elgato
-#camera_input = 0
+camera_input = 0
 # Computer camera
-camera_input = 1
+#camera_input = 1
 
 # initialize the trackers
 body_tracker = EuclideanDistTracker("Person")
@@ -22,8 +21,12 @@ hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 # I copied the files locally rather than typing out the long filepath of the openCV original
 
 # Identification
-known_face_encodings = faces_database.known_face_encodings
-known_face_names = faces_database.known_face_names
+known_face_encodings = np.load('known_face_encodings.npy')
+known_face_names = []
+with open('known_face_names.txt', 'r') as f:
+    for line in f:
+        known_face_names.append(line[:-1])
+print(known_face_names)
 
 # Initialize some variables
 face_locations = []
@@ -36,7 +39,7 @@ cv2.startWindowThread()
 # open webcam video stream
 # object for video capture, can receive either video file or an index corresponding to a camera
 # currently, 0 is for elgato, and 1 is for computer camera
-cap = cv2.VideoCapture("Test_material/Images/nicolas.jpg")
+cap = cv2.VideoCapture(camera_input)
 #cap = cv2.VideoCapture("http://192.168.11.12:4014/") #didn't work
 
 # the output will be written to output.avi
