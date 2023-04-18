@@ -10,20 +10,22 @@ known_face_names = faces_database.known_face_names
 
 
 capture1 = cv2.VideoCapture(2)#principal
-# capture2 = cv2.VideoCapture('http://172.19.132.92:4747/video')#Victor
-# capture3= cv2.VideoCapture('http://172.19.128.126:4747/video')#Nicolas
-# capture4= cv2.VideoCapture('http://172.19.133.32:4747/video')#Eliot
-# capture5=cv2.VideoCapture('http://172.19.128.195:4747/video')#Salman
+capture2 = cv2.VideoCapture('http://172.19.132.92:4747/video')#Victor
+capture3= cv2.VideoCapture('http://172.19.128.126:4747/video')#Nicolas
+capture4= cv2.VideoCapture('http://172.19.133.32:4747/video')#Eliot
+capture5=cv2.VideoCapture('http://172.19.128.195:4747/video')#Salman
 
 
 captures=[
     capture1
-    # ,
-    # capture2
-    # ,
-    # capture3,
-    # capture4
-    # capture5
+    ,
+    capture2
+    ,
+    capture3
+    ,
+    capture4
+    ,
+    capture5
           ]
 while True:
     for capture in captures:
