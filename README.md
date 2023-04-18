@@ -29,6 +29,12 @@ faces_database_auto.py
 
 tracker.py
 
+multi_cam.py
+
+multi_cam_complete.py
+
+faces_database.py
+
 Test_material/Images (un répertoire "Test_material" au niveau des fichiers .py, dans lequel se trouve "Images", dans lequel se trouvent les photos des visages)
 
 ## 'Logiciels' prérequis
