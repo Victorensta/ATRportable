@@ -32,10 +32,7 @@ class EuclideanDistTracker:
             # Find out if that object was detected already
             same_object_detected = False
             for id, pt in self.center_points.items():
-                # print("\nWe have registered :",self.center_points)
-                # print("The new points is (", cx, ",", cy, "). The possible match is", self.name,id,"at",pt)
                 dist = math.hypot(cx - pt[0], cy - pt[1])
-                # print("The distance between them was", dist)
 
                 if dist < 25:
                     self.center_points[id] = [cx, cy, time_sig]
@@ -51,7 +48,6 @@ class EuclideanDistTracker:
                     objects_bbs_ids.append([x, y, w, h, self.id_count])
                     print("We have detected a new", self.name, "it will the new ID", self.id_count)
                     self.id_count += 1
-                    #print("There are now", self.id_count, self.name, "on memory", "and the dictionary is", len(self.center_points), "long.")
                 else:
                     num = self.unused_ids[-1]
                     self.unused_ids.pop(-1)
@@ -59,7 +55,6 @@ class EuclideanDistTracker:
                     objects_bbs_ids.append([x, y, w, h, num])
                     print("We have detected a new", self.name, "it will reuse ID", num)
                     self.id_count += 1
-                    #print("There are now", self.id_count, self.name, "on memory", "and the dictionary is",len(self.center_points), "long.")
 
 
         # Clean the dictionary by center points to remove IDS not used anymore
@@ -72,8 +67,6 @@ class EuclideanDistTracker:
                     self.id_count -= 1
                     self.center_points[i][0] = 99999
                     self.center_points[i][1] = 99999
-                    #print("ID", i, "has been wiped from memory, freeing its spot. There were", 1+self.id_count, self.name, "before, now", self.id_count, "and the dictionary is", len(self.center_points), "long.")
-                    #print("Dic is now", self.center_points)
         elif self.id_count == 0 and len(self.center_points) > 0:
             self.center_points = {}
             self.unused_ids = []
