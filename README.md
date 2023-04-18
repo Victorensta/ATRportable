@@ -58,7 +58,7 @@ DroidCam Webcam & OBS Camera 1.9.3 (multi-caméra)
 1. idem partie EpocCam
 2. idem partie EpocCam
 3. Lancer Droidcam sur le téléphone portable.
-4. Dans le programme 'multi_cam.py', rajouter la caméra souhaitée (à partir de la ligne 12) avec la syntaxe suivante : **NomCamera**=cv2.VideoCapture('http://**IP**:**PORT**/video') (en gras les parties à modifier)
+4. Dans le programme 'multi_cam.py', rajouter la caméra souhaitée (à partir de la ligne 12) avec la syntaxe suivante : **NomCamera**=cv2.VideoCapture('http://**IP**:**PORT**/video') en remplaçant **IP** et **PORT** par ceux fournis par droidcam et en choissant le nom de caméra que vous souhaitez (attention à ne pas utiliser 2 fois le même nom)
 5. Dans le programme 'multi_cam.py', rajouter dans la liste captures (ligne 19) la variable **NomCamera**
 6. Exécuter le programme 'multi_cam.py'.
 
