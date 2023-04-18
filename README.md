@@ -1,6 +1,8 @@
 # ATRportable
+> Author : [Eliot JACQUEMIN, Salman ALMUTAIRI, Nicolas LE ROUX, Ahmed ALOTAIBI, Victor XU / SOIA-MASSEL2024]
 
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+## Description
+Ce projet, codé dans le cadre du projet système en 2e année à l'ENSTA Bretagne, consiste en la création d'un système de détection, suivi et identification de personnes utilisant comme caméra, le téléphone portable.
 
 ## Python Version
 Version utilisée : Python 3.7
@@ -60,6 +62,7 @@ DroidCam Webcam & OBS Camera 1.9.3 (multi-caméra)
 5. Dans le programme 'multi_cam.py', rajouter dans la liste captures (ligne 19) la variable **NomCamera**
 6. Exécuter le programme 'multi_cam.py'.
 
+> _NB_: Plus le nombre de caméras utilisées est grand, plus le système prend du temps pour répondre et risque de crasher.
 
 
 ## Le reste
