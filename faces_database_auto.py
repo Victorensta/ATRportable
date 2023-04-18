@@ -9,7 +9,8 @@ def load_BDD():
     with open('known_face_names.txt', 'w') as f:
         for i in range(len(imagePaths)):
             image = face_recognition.load_image_file(imagePaths[i])
-            face_encoding = face_recognition.face_encodings(image)[0]
+            if face_recognition.face_encodings(image):
+                face_encoding = face_recognition.face_encodings(image)[0]
             name = str(imagePaths[i][23:].split(".", 1)[0])+'\n'
             f.write(name)
             known_face_encodings[i] = face_encoding
