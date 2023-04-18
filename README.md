@@ -1,9 +1,13 @@
 # ATRportable
+> Author : [Eliot JACQUEMIN, Salman ALMUTAIRI, Nicolas LE ROUX, Ahmed ALOTAIBI, Victor XU / SOIA-MASSEL2024]
 
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+## Description
+Ce projet, codé dans le cadre du projet système en 2e année à l'ENSTA Bretagne, consiste en la création d'un système de détection, suivi et identification de personnes utilisant comme caméra, le téléphone portable.
 
 ## Python Version
 Version utilisée : Python 3.7
+
+Environnement utilisé : PyCharm 2022.3.2
 
 ## Modules (seules versions testées)
 numpy 1.21.6 
@@ -31,6 +35,7 @@ Test_material/Images (un répertoire "Test_material" au niveau des fichiers .py,
 
 Un environnement pour du code Python
 
+Connexion Wi-Fi stable : le(s) téléphone(s) portable(s) et l'ordinateur doivent être connectés au même réseau Wi-Fi
 
 
 ### En fonction du besoin
@@ -50,9 +55,15 @@ DroidCam Webcam & OBS Camera 1.9.3 (multi-caméra)
 
 ## Lancement de l'algorithme avec Droidcam (version multi-caméra)
 
-1. cf partie EpocCam
-2. cf partie EpocCam
-3. 
+1. idem partie EpocCam
+2. idem partie EpocCam
+3. Lancer Droidcam sur le téléphone portable.
+4. Dans le programme 'multi_cam.py', rajouter la caméra souhaitée (à partir de la ligne 12) avec la syntaxe suivante : **NomCamera**=cv2.VideoCapture('http://**IP**:**PORT**/video') (en gras les parties à modifier)
+5. Dans le programme 'multi_cam.py', rajouter dans la liste captures (ligne 19) la variable **NomCamera**
+6. Exécuter le programme 'multi_cam.py'.
+
+> _NB_: Plus le nombre de caméras utilisées est grand, plus le système prend du temps pour répondre et risque de crasher.
+
 
 ## Le reste
 
