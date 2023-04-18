@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ae749ac-52cf-4037-9c22-fb87e2fcfda5" name="Changes" comment="app etc">
+    <list default="true" id="8ae749ac-52cf-4037-9c22-fb87e2fcfda5" name="Changes" comment="multi-cam victor">
       <change beforePath="$PROJECT_DIR$/.idea/ATRportable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ATRportable.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealTimeVideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealTimeVideo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceRecognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceRecognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceRecognitionWebcam.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceRecognitionWebcam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceRecognitionWebcam_Victor.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceRecognitionWebcam_Victor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faces_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/faces_database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,19 +45,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -80,6 +91,8 @@
       <workItem from="1681242223068" duration="3474000" />
       <workItem from="1681251058896" duration="3140000" />
       <workItem from="1681733574613" duration="4515000" />
+      <workItem from="1681741349335" duration="1187000" />
+      <workItem from="1681742812514" duration="20893000" />
     </task>
     <task id="LOCAL-00001" summary="app etc">
       <created>1671208767194</created>
@@ -102,7 +115,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681242777815</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="app etc">
+      <created>1681741369147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681741369147</updated>
+    </task>
+    <task id="LOCAL-00005" summary="multi-cam victor">
+      <created>1681807070109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681807070109</updated>
+    </task>
+    <task id="LOCAL-00006" summary="multi-cam victor">
+      <created>1681821166542</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681821166542</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +155,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="app etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="app etc" />
+    <MESSAGE value="multi-cam victor" />
+    <option name="LAST_COMMIT_MESSAGE" value="multi-cam victor" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/faces_database_py$faceRecognitionWebcam_Victor.coverage" NAME="faceRecognitionWebcam_Victor Coverage Results" MODIFIED="1681820994982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/faces_database_py$RealTimeVideo.coverage" NAME="RealTimeVideo Coverage Results" MODIFIED="1681744735824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/faces_database_py$faceRecognitionWebcam.coverage" NAME="faceRecognitionWebcam Coverage Results" MODIFIED="1681819479432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/faces_database_py$faceRecognition.coverage" NAME="faceRecognition Coverage Results" MODIFIED="1681748779855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
