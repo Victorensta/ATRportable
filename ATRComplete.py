@@ -4,7 +4,7 @@ import time
 import face_recognition
 from tracker import EuclideanDistTracker
 
-# Elgato
+# EpocCam
 camera_input = 0
 # Computer camera
 #camera_input = 1
@@ -15,6 +15,7 @@ body_tracker = EuclideanDistTracker("Person")
 # initialize the HOG descriptor/person detector
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
+
 
 # Identification
 known_face_encodings = np.load('known_face_encodings.npy')
@@ -51,7 +52,12 @@ while True:
     ret, frame = cap.read()
     frame_width = cap.get(3)
     frame_height = cap.get(4)
+
+    # resizing for faster processing, this determines the picture size for imshow.
+    # If we make it smaller, then go fullscreen, then the image is pixelated
+    # incoming frames are at (1280, 720)=720p, my screen resolution is 2560x1600
     frame = cv2.resize(frame, (640, 400))
+
     # Convert the image from BGR color (which OpenCV uses) to RGB color (which face_recognition uses)
     rgb_frame = frame[:, :, ::-1]
     # using a greyscale picture, also for faster detection
