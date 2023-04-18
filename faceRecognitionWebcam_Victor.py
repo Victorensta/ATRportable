@@ -9,23 +9,25 @@ known_face_names = faces_database.known_face_names
 
 
 
-capture1 = cv2.VideoCapture(2)#principal
+# capture1 = cv2.VideoCapture(2)#principal
 capture2 = cv2.VideoCapture('http://172.19.132.92:4747/video')#Victor
-capture3= cv2.VideoCapture('http://172.19.128.126:4747/video')#Nicolas
-capture4= cv2.VideoCapture('http://172.19.133.32:4747/video')#Eliot
-capture5=cv2.VideoCapture('http://172.19.128.195:4747/video')#Salman
-
+# capture3= cv2.VideoCapture('http://172.19.128.126:4747/video')#Nicolas
+# capture4= cv2.VideoCapture('http://172.19.133.32:4747/video')#Eliot
+# capture5=cv2.VideoCapture('http://172.19.128.195:4747/video')#Salman
+# capture6=cv2.VideoCapture('http://172.19.128.195:4747/video')#Ahmed
 
 captures=[
-    capture1
-    ,
+    # capture1
+    # ,
     capture2
     ,
-    capture3
-    ,
-    capture4
-    ,
-    capture5
+    # capture3
+    # ,
+    # capture4
+    # ,
+    # capture5
+    # ,
+    # capture6
           ]
 while True:
     for capture in captures:
@@ -38,9 +40,11 @@ while True:
         ret, frame = capture.read()
 
         print(type(frame))
-
-        if capture!=capture1:
-            frame=cv2.rotate(frame,cv2.ROTATE_90_CLOCKWISE)
+        if 'capture1' in locals():
+            if capture!=capture1:
+                frame=cv2.rotate(frame,cv2.ROTATE_90_CLOCKWISE)
+        else:
+            frame = cv2.rotate(frame, cv2.ROTATE_90_CLOCKWISE)
 
         # Resize frame of video to 1/4 size for faster face recognition processing
         small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
