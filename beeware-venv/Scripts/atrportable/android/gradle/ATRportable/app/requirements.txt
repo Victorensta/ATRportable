@@ -1,5 +1,0 @@
-numpy
-opencv-python
-toga-android>=0.3.0.dev38
-numpy
-opencv-python
