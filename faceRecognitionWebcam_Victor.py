@@ -6,11 +6,7 @@ import numpy as np
 known_face_encodings = faces_database.known_face_encodings
 known_face_names = faces_database.known_face_names
 
-# Initialize some variables
-# face_locations = []
-# face_encodings = []
-#
-# process_this_frame = True
+
 
 
 capture1 = cv2.VideoCapture(2)#principal
