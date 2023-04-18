@@ -63,4 +63,5 @@ DroidCam Webcam & OBS Camera 1.9.3 (multi-caméra)
 6. Exécuter le programme 'multi_cam.py' (resp. 'multi_cam_complete.py').
 
 > _NB_: Plus le nombre de caméras utilisées est grand, plus le système prend du temps pour répondre et risque de crasher.
+
 > _NB2_: 'multi_cam.py' ne permet que la reconnaissance faciale mais a été testé et fonctionne. 'multi_cam_complete.py' permet toutes les autres fonctionnalités mais n'a encore jamais été avec plusieurs caméras (demande de puissance de calculs trop grande).
