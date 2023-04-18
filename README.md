@@ -2,6 +2,9 @@
 
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
+## Python Version
+Version utilisée : Python 3.7
+
 ## Modules (seules versions testées)
 numpy 1.21.6 
 
