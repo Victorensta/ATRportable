@@ -22,7 +22,19 @@ tracker.py
 
 Test_material/Images (un répertoire "Test_material" au niveau des fichiers .py, dans lequel se trouve "Images", dans lequel se trouvent les photos des visages)
 
-## Lancement de l'algorithme avec EpocCam
+## 'Logiciels' prérequis:
+
+Un environnement pour du code Python
+
+
+
+### Au choix:
+EpocCam Webcam for Mac et PC 2023.1.1 et Camera Hub 1.5.1
+
+DroidCam Webcam & OBS Camera 1.9.3
+
+
+## Lancement de l'algorithme avec EpocCam et Camera Hub
 
 1. Remplir "Images" avec les photos de personnes à identifier, format idéal pour le nom de la photo: Prénom_Nom (convention fixée par le groupe).
 2. Exécuter faces_database_auto.py (ce qui va charger la base de données avec les données des photos précédentes).
