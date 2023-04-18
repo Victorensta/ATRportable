@@ -1,6 +1,6 @@
 # ATRportable
 
-## Modules: (seules versions testées)
+## Modules (seules versions testées)
 numpy 1.21.6 
 
 opencv-python 4.6.0.66 
@@ -13,7 +13,7 @@ dlib 19.24.0
 
 imutils 0.5.4
 
-## Fichiers python et répertoires nécessaires:
+## Fichiers python et répertoires nécessaires
 ATRComplete.py
 
 faces_database_auto.py
@@ -22,19 +22,19 @@ tracker.py
 
 Test_material/Images (un répertoire "Test_material" au niveau des fichiers .py, dans lequel se trouve "Images", dans lequel se trouvent les photos des visages)
 
-## 'Logiciels' prérequis:
+## 'Logiciels' prérequis
 
 Un environnement pour du code Python
 
 
 
-### Au choix:
-EpocCam Webcam for Mac et PC 2023.1.1 et Camera Hub 1.5.1
+### En fonction du besoin
+EpocCam Webcam for Mac et PC 2023.1.1 et Camera Hub 1.5.1 (mono-caméra)
 
-DroidCam Webcam & OBS Camera 1.9.3
+DroidCam Webcam & OBS Camera 1.9.3 (multi-caméra)
 
 
-## Lancement de l'algorithme avec EpocCam et Camera Hub
+## Lancement de l'algorithme avec EpocCam et Camera Hub (version mono-caméra)
 
 1. Remplir "Images" avec les photos de personnes à identifier, format idéal pour le nom de la photo: Prénom_Nom (convention fixée par le groupe).
 2. Exécuter faces_database_auto.py (ce qui va charger la base de données avec les données des photos précédentes).
@@ -43,7 +43,7 @@ DroidCam Webcam & OBS Camera 1.9.3
 
 **Remarques** : Si tout fonctionne comme prévu, une fenêtre apparait à l'écran de l'ordinateur avec le flux vidéo du téléphone portable. Pour changer entre la caméra de l'ordinateur principal et celle du téléphone portable, il faut mettre en commentaire (ou dé-commenter pour l'inverse) la ligne 9 ou 11 de ATRComplete.py pour changer l'entrée vidéo.
 
-## Lancement de l'algorithme avec Droidcam
+## Lancement de l'algorithme avec Droidcam (version multi-caméra)
 
 1. cf partie EpocCam
 2. cf partie EpocCam
