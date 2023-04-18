@@ -57,7 +57,7 @@ DroidCam Webcam & OBS Camera 1.9.3 (multi-caméra)
 3. Lancer EpocCam sur le téléphone portable à utiliser, et Camera Hub sur l'ordinateur central.
 4. Exécuter ATRComplete.py
 
-**Remarques** : Si tout fonctionne comme prévu, une fenêtre apparait à l'écran de l'ordinateur avec le flux vidéo du téléphone portable. Pour changer entre la caméra de l'ordinateur principal et celle du téléphone portable, il faut mettre en commentaire (ou dé-commenter pour l'inverse) la ligne 9 ou 11 de ATRComplete.py pour changer l'entrée vidéo.
+**Remarques** : Si tout fonctionne comme prévu, une fenêtre apparait à l'écran de l'ordinateur avec le flux vidéo du téléphone portable. Pour changer entre la caméra de l'ordinateur principal et celle du téléphone portable, il faut mettre en commentaire (ou dé-commenter pour l'inverse) la ligne 8 ou 10 de ATRComplete.py pour changer l'entrée vidéo.
 
 ## Lancement de l'algorithme avec Droidcam (version multi-caméra)
 
