@@ -5,6 +5,8 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 ## Python Version
 Version utilisée : Python 3.7
 
+Environnement utilisé : PyCharm 2022.3.2
+
 ## Modules (seules versions testées)
 numpy 1.21.6 
 
@@ -31,6 +33,7 @@ Test_material/Images (un répertoire "Test_material" au niveau des fichiers .py,
 
 Un environnement pour du code Python
 
+Connexion Wi-Fi stable : le(s) téléphone(s) portable(s) et l'ordinateur doivent être connectés au même réseau Wi-Fi
 
 
 ### En fonction du besoin
@@ -50,9 +53,11 @@ DroidCam Webcam & OBS Camera 1.9.3 (multi-caméra)
 
 ## Lancement de l'algorithme avec Droidcam (version multi-caméra)
 
-1. cf partie EpocCam
-2. cf partie EpocCam
-3. 
+1. idem partie EpocCam
+2. idem partie EpocCam
+3. Lancer Droidcam sur le téléphone portable.
+4. Dans le programme 'multi_cam.py', 
+5. Exécuter le programme 'multi_cam.py'.
 
 ## Le reste
 
