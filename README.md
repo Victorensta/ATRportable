@@ -29,6 +29,12 @@ faces_database_auto.py
 
 tracker.py
 
+multi_cam.py
+
+multi_cam_complete.py
+
+faces_database.py
+
 Test_material/Images (un répertoire "Test_material" au niveau des fichiers .py, dans lequel se trouve "Images", dans lequel se trouvent les photos des visages)
 
 ## 'Logiciels' prérequis
@@ -51,15 +57,17 @@ DroidCam Webcam & OBS Camera 1.9.3 (multi-caméra)
 3. Lancer EpocCam sur le téléphone portable à utiliser, et Camera Hub sur l'ordinateur central.
 4. Exécuter ATRComplete.py
 
-**Remarques** : Si tout fonctionne comme prévu, une fenêtre apparait à l'écran de l'ordinateur avec le flux vidéo du téléphone portable. Pour changer entre la caméra de l'ordinateur principal et celle du téléphone portable, il faut mettre en commentaire (ou dé-commenter pour l'inverse) la ligne 9 ou 11 de ATRComplete.py pour changer l'entrée vidéo.
+**Remarques** : Si tout fonctionne comme prévu, une fenêtre apparait à l'écran de l'ordinateur avec le flux vidéo du téléphone portable. Pour changer entre la caméra de l'ordinateur principal et celle du téléphone portable, il faut mettre en commentaire (ou dé-commenter pour l'inverse) la ligne 8 ou 10 de ATRComplete.py pour changer l'entrée vidéo.
 
 ## Lancement de l'algorithme avec Droidcam (version multi-caméra)
 
 1. idem partie EpocCam
 2. idem partie EpocCam
 3. Lancer Droidcam sur le téléphone portable.
-4. Dans le programme 'multi_cam.py', rajouter la caméra souhaitée (à partir de la ligne 12) avec la syntaxe suivante : **NomCamera**=cv2.VideoCapture('http://**IP**:**PORT**/video') en remplaçant **IP** et **PORT** par ceux fournis par droidcam et en choissant le nom de caméra que vous souhaitez (attention à ne pas utiliser 2 fois le même nom)
-5. Dans le programme 'multi_cam.py', rajouter dans la liste captures (ligne 19) la variable **NomCamera**
-6. Exécuter le programme 'multi_cam.py'.
+4. Dans le programme 'multi_cam.py' (resp. 'multi_cam_complete.py'), rajouter la caméra souhaitée (à partir de la ligne 12 (resp. 42)) avec la syntaxe suivante : **NomCamera**=cv2.VideoCapture('http://**IP**:**PORT**/video') en remplaçant **IP** et **PORT** par ceux fournis par droidcam et en choissant le nom de caméra que vous souhaitez (attention à ne pas utiliser 2 fois le même nom)
+5. Dans le programme 'multi_cam.py', rajouter dans la liste captures (ligne 19 (resp. 45)) la variable **NomCamera**
+6. Exécuter le programme 'multi_cam.py' (resp. 'multi_cam_complete.py').
 
 > _NB_: Plus le nombre de caméras utilisées est grand, plus le système prend du temps pour répondre et risque de crasher.
+
+> _NB2_: 'multi_cam.py' ne permet que la reconnaissance faciale mais a été testé et fonctionne. 'multi_cam_complete.py' permet toutes les autres fonctionnalités mais n'a encore jamais été avec plusieurs caméras (demande de puissance de calculs trop grande).

@@ -1,11 +1,10 @@
-# import the necessary packages
 import numpy as np
 import cv2 as cv2
 import time
 import face_recognition
 from tracker import EuclideanDistTracker
 
-# Elgato
+# EpocCam
 camera_input = 0
 # Computer camera
 #camera_input = 1
@@ -16,9 +15,7 @@ body_tracker = EuclideanDistTracker("Person")
 # initialize the HOG descriptor/person detector
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
-# face and eyes detection
-# according to online and my own testing, Haar_cascade is not great at identifying bodies, but works well for faces
-# I copied the files locally rather than typing out the long filepath of the openCV original
+
 
 # Identification
 known_face_encodings = np.load('known_face_encodings.npy')
@@ -40,7 +37,6 @@ cv2.startWindowThread()
 # object for video capture, can receive either video file or an index corresponding to a camera
 # currently, 0 is for elgato, and 1 is for computer camera
 cap = cv2.VideoCapture(camera_input)
-#cap = cv2.VideoCapture("http://192.168.11.12:4014/") #didn't work
 
 # the output will be written to output.avi
 out = cv2.VideoWriter('output.avi', fourcc=cv2.VideoWriter_fourcc(*'MJPG'), fps=7., frameSize=(640, 400))
@@ -61,6 +57,7 @@ while True:
     # If we make it smaller, then go fullscreen, then the image is pixelated
     # incoming frames are at (1280, 720)=720p, my screen resolution is 2560x1600
     frame = cv2.resize(frame, (640, 400))
+
     # Convert the image from BGR color (which OpenCV uses) to RGB color (which face_recognition uses)
     rgb_frame = frame[:, :, ::-1]
     # using a greyscale picture, also for faster detection
@@ -82,8 +79,6 @@ while True:
     for body_id in bodies_ids:
         x, y, w, h, id = body_id
         cv2.putText(frame, 'Person '+str(id), (x, y - 15), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
-        # body in green
-        # (image, (left, top), (right, bottom), (B, G, R), thickness)
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
     # Only process every other frame of video to save time
@@ -97,13 +92,6 @@ while True:
             # See if the face is a match for the known face(s)
             matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
             name = "Unknown"
-
-            # # If a match was found in known_face_encodings, just use the first one.
-            # if True in matches:
-            #     first_match_index = matches.index(True)
-            #     name = known_face_names[first_match_index]
-
-            # Or instead, use the known face with the smallest distance to the new face
             face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
             best_match_index = np.argmin(face_distances)
             if matches[best_match_index]:
@@ -123,23 +111,14 @@ while True:
         # Draw a label with a name below the face
         cv2.rectangle(frame, (left, bottom - 17), (right, bottom), (0, 255, 0), cv2.FILLED)
         font = cv2.FONT_HERSHEY_DUPLEX
-        #name = str((left, top))+str((right, bottom))+str((frame_width, frame_height))
         cv2.putText(frame, name, (left + 4, bottom - 4), font, 1, (0, 0, 255), 2)
-
-    #for face_id in frontal_faces_ids
 
     # Display the resulting image
     cv2.imshow('Image', frame)
 
     td1 = time.time()
     detect_times.append(td1-td0)
-    # Write the output video
     out.write(frame)
-    # out.write(frame.astype('uint8')) #this is the code used by the creator
-    # Display the resulting frame
-    # what matters for the picture itself is the frame
-    #cv2.imshow('frame', frame)
-    # waits 1ms before we can proceed
     if cv2.waitKey(50) & 0xFF == ord('q'):
         break
     t1 = time.time()
@@ -152,25 +131,3 @@ out.release()
 # finally, close the window
 cv2.destroyAllWindows()
 cv2.waitKey(1)
-print("There are ", frame_count, " frames.")
-detect_time = round(np.average(detect_times), 3)
-print("Detection and box drawing takes ", detect_time, " seconds.")
-frame_time = round(np.average(frame_times), 3)
-print("Processing a frame takes ", frame_time, " seconds.")
-print("So in theory we should be able to process ", round(1/np.average(frame_times), 3), " frames per second.")
-# this line of code gives us the ideal framerate if we want the output to look like the imshow
-
-'''
-Notes on this code:
-The waitkey() inside the loop dictates the framerate without other code to slow it down.
-It works in ms/frame, so 42ms/frame is roughly 24fps, or 17 corresponds to 60fps.
-The fourCC code is used to identify a file format. It's a thing, look it up.
-'''
-
-'''
-Idea : the detect-tracking and identification work symbiotically. If the tracking is not obstructed,
-then the name is maintained despite the face not being visible. If the tracking is obstructed,
-the face will work for re-identification. This should give it abilities similar to a baby, no?
-We should compare the centers of the identification squares and the detection ones. IF they are close
-then we should say that they're the same. 
-'''
