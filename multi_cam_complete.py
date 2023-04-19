@@ -40,9 +40,10 @@ print(known_face_names)
 # object for video capture, can receive either video file or an index corresponding to a camera
 # currently, 0 is for elgato, and 1 is for computer camera
 capture1 = cv2.VideoCapture(camera_input)
-#cap = cv2.VideoCapture("http://192.168.11.12:4014/") #didn't work
+capture2 = cv2.VideoCapture("http://172.19.132.92:4747/video")
 captures=[
-    capture1
+    capture1,
+    capture2
 ]
 # the output will be written to output.avi
 # out = cv2.VideoWriter('output.avi', fourcc=cv2.VideoWriter_fourcc(*'MJPG'), fps=7., frameSize=(640, 400))
@@ -73,6 +74,11 @@ while True:
         # resizing for faster processing, this determines the picture size for imshow.
         # If we make it smaller, then go fullscreen, then the image is pixelated
         # incoming frames are at (1280, 720)=720p, my screen resolution is 2560x1600
+        if 'capture1' in locals():
+            if cap!=capture1:
+                frame=cv2.rotate(frame,cv2.ROTATE_90_CLOCKWISE)
+        else:
+            frame = cv2.rotate(frame, cv2.ROTATE_90_CLOCKWISE)  
         frame = cv2.resize(frame, (640, 400))
         # Convert the image from BGR color (which OpenCV uses) to RGB color (which face_recognition uses)
         rgb_frame = frame
@@ -143,7 +149,7 @@ while True:
         #for face_id in frontal_faces_ids
 
         # Display the resulting image
-        cv2.imshow('Image', frame)
+        cv2.imshow(f'{cap}', frame)
 
         td1 = time.time()
         detect_times.append(td1-td0)
